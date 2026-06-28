@@ -1,5 +1,7 @@
 /**
  * quiz-board — surface-soft, rounded-md, hairline, padding xl, 최대폭 840px 중앙 (docs/04 §4).
+ * 키보드 우선 플레이 버전: 단어 박스(품사 단계) / 구 밑줄(문장성분 단계) + 하단 팔레트.
+ * 색은 tokens.css 변수만 사용.
  */
 .board {
   max-width: 840px;
@@ -13,7 +15,7 @@
   gap: var(--space-lg);
 }
 
-/* progress-indicator: "문제 N / 전체" + 4px 진행바 (primary 채움) */
+/* progress-indicator */
 .progress {
   display: flex;
   flex-direction: column;
@@ -32,60 +34,225 @@
   height: 100%;
   background: var(--primary);
   border-radius: var(--rounded-full);
+  transition: width 350ms ease;
 }
 
-/* 문장: 단어가 text처럼 inline-wrap. 줄 간격은 단어 아래 인라인 선택기 자리 확보용으로 넉넉히. */
+/* ── 공통: 번호 ── */
+.tokenIndex {
+  color: var(--muted);
+}
+
+/* ── 품사 단계: 단어 박스 ── */
 .sentence {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  gap: var(--space-lg) var(--space-xs); /* row 24 / column 8 (design.md 단어 간 8px) */
-}
-.inlinePos {
-  margin-top: var(--space-xxs);
+  justify-content: center;
+  gap: var(--space-md) var(--space-xs);
+  padding: var(--space-xs) 0;
 }
 
-/* 데스크톱 문장성분 영역 (구별 component-selector) */
-.componentArea {
+.posToken {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-xxs);
+  padding: var(--space-xxs);
+  border-radius: var(--rounded-md);
+  cursor: pointer;
+}
+.posTokenFocused {
+  background: color-mix(in srgb, var(--focus) 12%, transparent);
+}
+
+/* 비채점 토큰(구두점 등): 흐리게, 비활성 */
+.plainToken {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-xxs);
+  padding: var(--space-xxs);
+  opacity: 0.45;
+}
+.plainWord {
+  color: var(--ink);
+}
+
+.tokenWord {
+  color: var(--ink);
+  display: inline-flex;
+  align-items: center;
+}
+.tokenBox {
+  border: 2px solid transparent;
+  border-radius: var(--rounded-sm);
+  padding: 2px var(--space-xs);
+}
+.tokenBoxFocused {
+  border-color: var(--focus);
+  background: color-mix(in srgb, var(--focus) 12%, transparent);
+}
+.tokenBoxWrong {
+  border-color: var(--error);
+  background: var(--error-soft);
+}
+.tokenWordWrong {
+  color: var(--error);
+}
+
+/* 입력 칩(아래 라벨) */
+.pill {
+  min-width: 56px;
+  text-align: center;
+  font: var(--type-label-md);
+  padding: 3px var(--space-xs);
+  border-radius: var(--rounded-full);
+  border: 1px solid var(--hairline);
+}
+.pillEmpty {
+  border-style: dashed;
+  border-color: var(--hairline);
+  background: transparent;
+  color: var(--muted);
+}
+.pillFilled {
+  border-style: solid;
+  border-color: var(--surface-strong);
+  background: var(--canvas);
+  color: var(--ink);
+}
+.pillWrong {
+  border-style: solid;
+  border-color: var(--error);
+  color: var(--error);
+  background: var(--canvas);
+}
+
+/* ── 문장성분 단계: 구 밑줄 ── */
+.phrases {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--space-lg) var(--space-sm);
+  padding: var(--space-xs) 0;
+}
+.phraseGroup {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-xs) var(--space-xs) var(--space-xxs);
+  border-radius: var(--rounded-md);
+  cursor: pointer;
+}
+.phraseGroupFocused {
+  background: color-mix(in srgb, var(--focus) 12%, transparent);
+}
+
+.underline {
+  display: inline-flex;
+  gap: var(--space-xs);
+  padding-bottom: var(--space-xs);
+  border-bottom: 2px dashed var(--surface-strong);
+}
+.underlineFilled {
+  border-bottom: 2px solid var(--ink);
+}
+.underlineFocused {
+  border-bottom: 3px solid var(--focus);
+}
+.underlineWrong {
+  border-bottom: 3px solid var(--error);
+}
+
+.phraseTokenStack {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}
+.phraseWord {
+  color: var(--ink);
+}
+
+/* ── 컨트롤(팔레트 + 키 안내 + 채점 버튼) ── */
+.controls {
   border-top: 1px solid var(--hairline);
   padding-top: var(--space-lg);
   display: flex;
   flex-direction: column;
-  gap: var(--space-sm);
+  gap: var(--space-md);
 }
-.componentTitle {
-  color: var(--muted);
-}
-.phraseRows {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-sm);
-}
-.phraseRow {
+.keyRow {
   display: flex;
   align-items: center;
   gap: var(--space-md);
-  min-height: 44px;
+  flex-wrap: wrap;
 }
-.phraseText {
-  color: var(--ink);
+.keyHints {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-xs) var(--space-md);
   flex: 1 1 auto;
 }
-
-.actions {
-  display: flex;
-  justify-content: flex-end;
+.keyHint {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xxs);
+  font: var(--type-body-md);
+  color: var(--muted);
+}
+.key {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 22px;
+  height: 22px;
+  padding: 0 6px;
+  border: 1px solid var(--hairline);
+  border-bottom-width: 2px;
+  border-radius: var(--rounded-sm);
+  background: var(--canvas);
+  color: var(--ink);
+  font: var(--type-chip);
 }
 
-/* 모바일: 보드 패딩을 약간 좁히고 문장 줄간격도 타이트하게 */
+/* ── 공개(reveal) 하단 ── */
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-md);
+  border-top: 1px solid var(--hairline);
+  padding-top: var(--space-lg);
+}
+.hint {
+  color: var(--muted);
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+}
+
+/* ── 모바일 ── */
 @media (max-width: 767px) {
   .board {
     padding: var(--space-lg);
   }
   .sentence {
-    gap: var(--space-sm) var(--space-xs);
+    gap: var(--space-md) var(--space-xs);
+  }
+  /* 키 안내(키보드 전용)는 숨기고, 팔레트 칩 자체가 모바일 UI가 된다 */
+  .keyHints {
+    display: none;
+  }
+  .keyRow {
+    justify-content: flex-end;
+  }
+  .footer {
+    flex-direction: column-reverse;
+    align-items: stretch;
+    gap: var(--space-sm);
   }
 }

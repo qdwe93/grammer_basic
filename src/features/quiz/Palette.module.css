@@ -1,0 +1,95 @@
+/**
+ * answer-palette 스타일. 칩은 터치 타깃 44px 이상(모바일 겸용).
+ * 색은 tokens.css 변수만 사용 — 새 색 없음.
+ */
+.palette {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.context {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  margin: 0;
+  flex-wrap: wrap;
+}
+.kindBadge {
+  display: inline-flex;
+  align-items: center;
+  height: 22px;
+  padding: 0 var(--space-xs);
+  border-radius: var(--rounded-sm);
+  background: var(--ink);
+  color: var(--on-primary);
+}
+.contextText {
+  color: var(--ink);
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  min-height: 44px;
+  padding: var(--space-xs) var(--space-sm) var(--space-xs) var(--space-xxs);
+  border: 1px solid var(--hairline);
+  border-radius: var(--rounded-sm);
+  background: var(--canvas);
+  color: var(--ink);
+  cursor: pointer;
+  transition: background-color 120ms ease, border-color 120ms ease, color 120ms ease;
+}
+.chip:hover {
+  border-color: var(--ink);
+}
+.chipSelected {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: var(--on-primary);
+}
+
+.chipNum {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: var(--rounded-sm);
+  font: var(--type-chip);
+  background: var(--surface-soft);
+  color: var(--muted);
+}
+.chipSelected .chipNum {
+  background: rgba(255, 255, 255, 0.22);
+  color: var(--on-primary);
+}
+
+.chipLabel {
+  font: var(--type-label-md);
+}
+
+/* 품사 점: 배경 틴트 + 잉크 테두리 */
+.dotPos {
+  width: 12px;
+  height: 12px;
+  border-radius: var(--rounded-full);
+  flex: 0 0 auto;
+  background: var(--dot-bg);
+  border: 1.5px solid var(--dot-ink);
+}
+/* 문장성분 점: family 단색 */
+.dotComp {
+  width: 12px;
+  height: 12px;
+  border-radius: var(--rounded-full);
+  flex: 0 0 auto;
+  background: var(--dot-color);
+}

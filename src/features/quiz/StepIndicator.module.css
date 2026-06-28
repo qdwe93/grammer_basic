@@ -1,0 +1,49 @@
+.steps {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+}
+
+.step {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  padding: var(--space-xxs) var(--space-sm);
+  border: 1px solid var(--hairline);
+  border-radius: var(--rounded-full);
+  background: var(--surface-soft);
+  color: var(--muted);
+  font: var(--type-label-md);
+  cursor: pointer;
+  transition: background-color 120ms ease, color 120ms ease, border-color 120ms ease;
+}
+.stepActive {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--on-primary);
+}
+
+.stepNum {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  border-radius: var(--rounded-full);
+  font: var(--type-chip);
+  background: var(--surface-strong);
+  color: var(--muted);
+}
+.stepActive .stepNum {
+  background: rgba(255, 255, 255, 0.22);
+  color: var(--on-primary);
+}
+
+.count {
+  font: var(--type-chip);
+  opacity: 0.8;
+}
+
+.arrow {
+  color: var(--surface-strong);
+}
