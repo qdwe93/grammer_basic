@@ -1,0 +1,6749 @@
+{
+  "id": "science-6",
+  "title": "과학 6학년 — 다양한 주제 100문장",
+  "language": "en",
+  "source": "seed",
+  "questions": [
+    {
+      "id": "q1",
+      "sentence": "Electricity flows through metal wires.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Electricity",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "flows",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "through",
+          "pos": "preposition"
+        },
+        {
+          "index": 4,
+          "text": "metal",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "wires.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "전기는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "흐른다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "금속 전선을 통해"
+        }
+      ],
+      "translation": "전기는 금속 전선을 통해 흐른다."
+    },
+    {
+      "id": "q2",
+      "sentence": "A battery gives power to the bulb.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "A",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "battery",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "gives",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "power",
+          "pos": "noun"
+        },
+        {
+          "index": 5,
+          "text": "to",
+          "pos": "preposition"
+        },
+        {
+          "index": 6,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 7,
+          "text": "bulb.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "건전지는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "공급한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "object",
+          "chunkGloss": "전기를"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            5,
+            6,
+            7
+          ],
+          "component": "modifier",
+          "chunkGloss": "전구에"
+        }
+      ],
+      "translation": "건전지는 전구에 전기를 공급한다."
+    },
+    {
+      "id": "q3",
+      "sentence": "The light bulb shines brightly.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "light",
+          "pos": "adjective"
+        },
+        {
+          "index": 3,
+          "text": "bulb",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "shines",
+          "pos": "verb"
+        },
+        {
+          "index": 5,
+          "text": "brightly.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2,
+            3
+          ],
+          "component": "subject",
+          "chunkGloss": "전구는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "predicate",
+          "chunkGloss": "빛난다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "밝게"
+        }
+      ],
+      "translation": "전구는 밝게 빛난다."
+    },
+    {
+      "id": "q4",
+      "sentence": "A switch stops the electric current.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "A",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "switch",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "stops",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "electric",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "current.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "스위치는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "멈춘다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "전류를"
+        }
+      ],
+      "translation": "스위치는 전류를 멈춘다."
+    },
+    {
+      "id": "q5",
+      "sentence": "Magnets have two poles.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Magnets",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "have",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "two",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "poles.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "자석은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "가지고 있다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4
+          ],
+          "component": "object",
+          "chunkGloss": "두 개의 극을"
+        }
+      ],
+      "translation": "자석은 두 개의 극을 가지고 있다."
+    },
+    {
+      "id": "q6",
+      "sentence": "An electromagnet works only with electricity.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "An",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "electromagnet",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "works",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "only",
+          "pos": "adverb"
+        },
+        {
+          "index": 5,
+          "text": "with",
+          "pos": "preposition"
+        },
+        {
+          "index": 6,
+          "text": "electricity.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "전자석은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "작동한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "전기가 있을 때만"
+        }
+      ],
+      "translation": "전자석은 전기가 있을 때만 작동한다."
+    },
+    {
+      "id": "q7",
+      "sentence": "Many homes use electric energy every day.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Many",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "homes",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "use",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "electric",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "energy",
+          "pos": "noun"
+        },
+        {
+          "index": 6,
+          "text": "every",
+          "pos": "adjective"
+        },
+        {
+          "index": 7,
+          "text": "day.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "많은 가정은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "사용한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "전기 에너지를"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            6,
+            7
+          ],
+          "component": "modifier",
+          "chunkGloss": "매일"
+        }
+      ],
+      "translation": "많은 가정은 매일 전기 에너지를 사용한다."
+    },
+    {
+      "id": "q8",
+      "sentence": "A copper wire carries the current well.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "A",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "copper",
+          "pos": "adjective"
+        },
+        {
+          "index": 3,
+          "text": "wire",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "carries",
+          "pos": "verb"
+        },
+        {
+          "index": 5,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "current",
+          "pos": "noun"
+        },
+        {
+          "index": 7,
+          "text": "well.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2,
+            3
+          ],
+          "component": "subject",
+          "chunkGloss": "구리 전선은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "predicate",
+          "chunkGloss": "전달한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "전류를"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            7
+          ],
+          "component": "modifier",
+          "chunkGloss": "잘"
+        }
+      ],
+      "translation": "구리 전선은 전류를 잘 전달한다."
+    },
+    {
+      "id": "q9",
+      "sentence": "The Earth moves around the Sun.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "Earth",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "moves",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "around",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "Sun.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "지구는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "움직인다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "태양 주위를"
+        }
+      ],
+      "translation": "지구는 태양 주위를 움직인다."
+    },
+    {
+      "id": "q10",
+      "sentence": "The Earth's axis is tilted.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "Earth's",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "axis",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "is",
+          "pos": "verb"
+        },
+        {
+          "index": 5,
+          "text": "tilted.",
+          "pos": "adjective"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2,
+            3
+          ],
+          "component": "subject",
+          "chunkGloss": "지구의 축은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "predicate",
+          "chunkGloss": "이다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            5
+          ],
+          "component": "complement",
+          "chunkGloss": "기울어진 상태"
+        }
+      ],
+      "translation": "지구의 축은 기울어져 있다."
+    },
+    {
+      "id": "q11",
+      "sentence": "Summer days are long and warm.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Summer",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "days",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "are",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "long",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "and",
+          "pos": "conjunction"
+        },
+        {
+          "index": 6,
+          "text": "warm.",
+          "pos": "adjective"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "여름의 낮은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "이다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "complement",
+          "chunkGloss": "길고 따뜻하다"
+        }
+      ],
+      "translation": "여름의 낮은 길고 따뜻하다."
+    },
+    {
+      "id": "q12",
+      "sentence": "In winter, the nights become longer.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "In",
+          "pos": "preposition"
+        },
+        {
+          "index": 2,
+          "text": "winter,",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "nights",
+          "pos": "noun"
+        },
+        {
+          "index": 5,
+          "text": "become",
+          "pos": "verb"
+        },
+        {
+          "index": 6,
+          "text": "longer.",
+          "pos": "adjective"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "modifier",
+          "chunkGloss": "겨울에는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3,
+            4
+          ],
+          "component": "subject",
+          "chunkGloss": "밤은"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            5
+          ],
+          "component": "predicate",
+          "chunkGloss": "된다"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            6
+          ],
+          "component": "complement",
+          "chunkGloss": "더 길어"
+        }
+      ],
+      "translation": "겨울에는 밤이 더 길어진다."
+    },
+    {
+      "id": "q13",
+      "sentence": "The Sun rises high in summer.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "Sun",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "rises",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "high",
+          "pos": "adverb"
+        },
+        {
+          "index": 5,
+          "text": "in",
+          "pos": "preposition"
+        },
+        {
+          "index": 6,
+          "text": "summer.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "태양은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "뜬다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "modifier",
+          "chunkGloss": "높이"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "여름에"
+        }
+      ],
+      "translation": "여름에는 태양이 높이 뜬다."
+    },
+    {
+      "id": "q14",
+      "sentence": "Seasons change because of the tilt.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Seasons",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "change",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "because",
+          "pos": "preposition"
+        },
+        {
+          "index": 4,
+          "text": "of",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "tilt.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "계절은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "변한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "기울기 때문에"
+        }
+      ],
+      "translation": "계절은 기울기 때문에 변한다."
+    },
+    {
+      "id": "q15",
+      "sentence": "Spring brings warm weather to us.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Spring",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "brings",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "warm",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "weather",
+          "pos": "noun"
+        },
+        {
+          "index": 5,
+          "text": "to",
+          "pos": "preposition"
+        },
+        {
+          "index": 6,
+          "text": "us.",
+          "pos": "pronoun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "봄은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "가져온다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4
+          ],
+          "component": "object",
+          "chunkGloss": "따뜻한 날씨를"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "우리에게"
+        }
+      ],
+      "translation": "봄은 우리에게 따뜻한 날씨를 가져온다."
+    },
+    {
+      "id": "q16",
+      "sentence": "Fire needs oxygen and heat.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Fire",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "needs",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "oxygen",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "and",
+          "pos": "conjunction"
+        },
+        {
+          "index": 5,
+          "text": "heat.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "불은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "필요로 한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "산소와 열을"
+        }
+      ],
+      "translation": "불은 산소와 열을 필요로 한다."
+    },
+    {
+      "id": "q17",
+      "sentence": "Burning wood produces ash and smoke.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Burning",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "wood",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "produces",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "ash",
+          "pos": "noun"
+        },
+        {
+          "index": 5,
+          "text": "and",
+          "pos": "conjunction"
+        },
+        {
+          "index": 6,
+          "text": "smoke.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "타는 나무는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "만든다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "재와 연기를"
+        }
+      ],
+      "translation": "타는 나무는 재와 연기를 만든다."
+    },
+    {
+      "id": "q18",
+      "sentence": "Water stops a fire quickly.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Water",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "stops",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "a",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "fire",
+          "pos": "noun"
+        },
+        {
+          "index": 5,
+          "text": "quickly.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "물은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "끈다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4
+          ],
+          "component": "object",
+          "chunkGloss": "불을"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "빠르게"
+        }
+      ],
+      "translation": "물은 불을 빠르게 끈다."
+    },
+    {
+      "id": "q19",
+      "sentence": "A candle flame is very hot.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "A",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "candle",
+          "pos": "adjective"
+        },
+        {
+          "index": 3,
+          "text": "flame",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "is",
+          "pos": "verb"
+        },
+        {
+          "index": 5,
+          "text": "very",
+          "pos": "adverb"
+        },
+        {
+          "index": 6,
+          "text": "hot.",
+          "pos": "adjective"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2,
+            3
+          ],
+          "component": "subject",
+          "chunkGloss": "촛불의 불꽃은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "predicate",
+          "chunkGloss": "이다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            5,
+            6
+          ],
+          "component": "complement",
+          "chunkGloss": "매우 뜨겁다"
+        }
+      ],
+      "translation": "촛불의 불꽃은 매우 뜨겁다."
+    },
+    {
+      "id": "q20",
+      "sentence": "Carbon dioxide does not help burning.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Carbon",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "dioxide",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "does",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "not",
+          "pos": "adverb"
+        },
+        {
+          "index": 5,
+          "text": "help",
+          "pos": "verb"
+        },
+        {
+          "index": 6,
+          "text": "burning.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "이산화탄소는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "predicate",
+          "chunkGloss": "돕지 않는다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "타는 것을"
+        }
+      ],
+      "translation": "이산화탄소는 타는 것을 돕지 않는다."
+    },
+    {
+      "id": "q21",
+      "sentence": "Dry leaves burn very fast.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Dry",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "leaves",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "burn",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "very",
+          "pos": "adverb"
+        },
+        {
+          "index": 5,
+          "text": "fast.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "마른 나뭇잎은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "탄다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "매우 빠르게"
+        }
+      ],
+      "translation": "마른 나뭇잎은 매우 빠르게 탄다."
+    },
+    {
+      "id": "q22",
+      "sentence": "The heart pumps blood through the body.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "heart",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "pumps",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "blood",
+          "pos": "noun"
+        },
+        {
+          "index": 5,
+          "text": "through",
+          "pos": "preposition"
+        },
+        {
+          "index": 6,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 7,
+          "text": "body.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "심장은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "내보낸다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "object",
+          "chunkGloss": "피를"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            5,
+            6,
+            7
+          ],
+          "component": "modifier",
+          "chunkGloss": "온몸으로"
+        }
+      ],
+      "translation": "심장은 온몸으로 피를 내보낸다."
+    },
+    {
+      "id": "q23",
+      "sentence": "Our lungs hold fresh air.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Our",
+          "pos": "pronoun"
+        },
+        {
+          "index": 2,
+          "text": "lungs",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "hold",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "fresh",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "air.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "우리의 폐는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "담는다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "신선한 공기를"
+        }
+      ],
+      "translation": "우리의 폐는 신선한 공기를 담는다."
+    },
+    {
+      "id": "q24",
+      "sentence": "The stomach digests our food.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "stomach",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "digests",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "our",
+          "pos": "pronoun"
+        },
+        {
+          "index": 5,
+          "text": "food.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "위는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "소화한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "우리의 음식을"
+        }
+      ],
+      "translation": "위는 우리의 음식을 소화한다."
+    },
+    {
+      "id": "q25",
+      "sentence": "Strong bones support the whole body.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Strong",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "bones",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "support",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "whole",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "body.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "튼튼한 뼈는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "지탱한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "온몸을"
+        }
+      ],
+      "translation": "튼튼한 뼈는 온몸을 지탱한다."
+    },
+    {
+      "id": "q26",
+      "sentence": "Muscles move our arms and legs.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Muscles",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "move",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "our",
+          "pos": "pronoun"
+        },
+        {
+          "index": 4,
+          "text": "arms",
+          "pos": "noun"
+        },
+        {
+          "index": 5,
+          "text": "and",
+          "pos": "conjunction"
+        },
+        {
+          "index": 6,
+          "text": "legs.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "근육은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "움직인다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "우리의 팔과 다리를"
+        }
+      ],
+      "translation": "근육은 우리의 팔과 다리를 움직인다."
+    },
+    {
+      "id": "q27",
+      "sentence": "The brain controls every body part.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "brain",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "controls",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "every",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "body",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "part.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "뇌는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "조절한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "모든 신체 부위를"
+        }
+      ],
+      "translation": "뇌는 모든 신체 부위를 조절한다."
+    },
+    {
+      "id": "q28",
+      "sentence": "We breathe with our lungs.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "We",
+          "pos": "pronoun"
+        },
+        {
+          "index": 2,
+          "text": "breathe",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "with",
+          "pos": "preposition"
+        },
+        {
+          "index": 4,
+          "text": "our",
+          "pos": "pronoun"
+        },
+        {
+          "index": 5,
+          "text": "lungs.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "우리는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "숨 쉰다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "폐로"
+        }
+      ],
+      "translation": "우리는 폐로 숨 쉰다."
+    },
+    {
+      "id": "q29",
+      "sentence": "Blood carries oxygen to the cells.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Blood",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "carries",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "oxygen",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "to",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "cells.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "피는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "운반한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "object",
+          "chunkGloss": "산소를"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "세포로"
+        }
+      ],
+      "translation": "피는 세포로 산소를 운반한다."
+    },
+    {
+      "id": "q30",
+      "sentence": "Our skin protects the inside organs.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Our",
+          "pos": "pronoun"
+        },
+        {
+          "index": 2,
+          "text": "skin",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "protects",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "inside",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "organs.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "우리의 피부는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "보호한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "안쪽 장기를"
+        }
+      ],
+      "translation": "우리의 피부는 안쪽 장기를 보호한다."
+    },
+    {
+      "id": "q31",
+      "sentence": "The heart beats day and night.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "heart",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "beats",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "day",
+          "pos": "noun"
+        },
+        {
+          "index": 5,
+          "text": "and",
+          "pos": "conjunction"
+        },
+        {
+          "index": 6,
+          "text": "night.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "심장은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "뛴다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "밤낮으로"
+        }
+      ],
+      "translation": "심장은 밤낮으로 뛴다."
+    },
+    {
+      "id": "q32",
+      "sentence": "Light travels in a straight line.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Light",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "travels",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "in",
+          "pos": "preposition"
+        },
+        {
+          "index": 4,
+          "text": "a",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "straight",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "line.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "빛은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "나아간다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "직선으로"
+        }
+      ],
+      "translation": "빛은 직선으로 나아간다."
+    },
+    {
+      "id": "q33",
+      "sentence": "A mirror reflects the bright light.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "A",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "mirror",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "reflects",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "bright",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "light.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "거울은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "반사한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "밝은 빛을"
+        }
+      ],
+      "translation": "거울은 밝은 빛을 반사한다."
+    },
+    {
+      "id": "q34",
+      "sentence": "A lens can bend the light.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "A",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "lens",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "can",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "bend",
+          "pos": "verb"
+        },
+        {
+          "index": 5,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "light.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "렌즈는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3,
+            4
+          ],
+          "component": "predicate",
+          "chunkGloss": "굽힐 수 있다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "빛을"
+        }
+      ],
+      "translation": "렌즈는 빛을 굽힐 수 있다."
+    },
+    {
+      "id": "q35",
+      "sentence": "A convex lens shows a bigger image.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "A",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "convex",
+          "pos": "adjective"
+        },
+        {
+          "index": 3,
+          "text": "lens",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "shows",
+          "pos": "verb"
+        },
+        {
+          "index": 5,
+          "text": "a",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "bigger",
+          "pos": "adjective"
+        },
+        {
+          "index": 7,
+          "text": "image.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2,
+            3
+          ],
+          "component": "subject",
+          "chunkGloss": "볼록 렌즈는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "predicate",
+          "chunkGloss": "보여 준다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            5,
+            6,
+            7
+          ],
+          "component": "object",
+          "chunkGloss": "더 큰 상을"
+        }
+      ],
+      "translation": "볼록 렌즈는 더 큰 상을 보여 준다."
+    },
+    {
+      "id": "q36",
+      "sentence": "Sunlight contains many different colors.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Sunlight",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "contains",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "many",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "different",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "colors.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "햇빛은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "담고 있다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "여러 다른 색을"
+        }
+      ],
+      "translation": "햇빛은 여러 다른 색을 담고 있다."
+    },
+    {
+      "id": "q37",
+      "sentence": "Shadows form behind solid objects.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Shadows",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "form",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "behind",
+          "pos": "preposition"
+        },
+        {
+          "index": 4,
+          "text": "solid",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "objects.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "그림자는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "생긴다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "단단한 물체 뒤에"
+        }
+      ],
+      "translation": "그림자는 단단한 물체 뒤에 생긴다."
+    },
+    {
+      "id": "q38",
+      "sentence": "A prism splits white light.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "A",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "prism",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "splits",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "white",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "light.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "프리즘은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "나눈다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "흰 빛을"
+        }
+      ],
+      "translation": "프리즘은 흰 빛을 나눈다."
+    },
+    {
+      "id": "q39",
+      "sentence": "We see objects with our eyes.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "We",
+          "pos": "pronoun"
+        },
+        {
+          "index": 2,
+          "text": "see",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "objects",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "with",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "our",
+          "pos": "pronoun"
+        },
+        {
+          "index": 6,
+          "text": "eyes.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "우리는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "본다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "object",
+          "chunkGloss": "물체를"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "눈으로"
+        }
+      ],
+      "translation": "우리는 눈으로 물체를 본다."
+    },
+    {
+      "id": "q40",
+      "sentence": "The Moon orbits the Earth slowly.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "Moon",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "orbits",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "Earth",
+          "pos": "noun"
+        },
+        {
+          "index": 6,
+          "text": "slowly.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "달은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "돈다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "지구를"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "천천히"
+        }
+      ],
+      "translation": "달은 지구 주위를 천천히 돈다."
+    },
+    {
+      "id": "q41",
+      "sentence": "The Moon has a rocky surface.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "Moon",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "has",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "a",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "rocky",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "surface.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "달은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "가지고 있다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "바위로 된 표면을"
+        }
+      ],
+      "translation": "달은 바위로 된 표면을 가지고 있다."
+    },
+    {
+      "id": "q42",
+      "sentence": "The Moon's shape changes each night.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "Moon's",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "shape",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "changes",
+          "pos": "verb"
+        },
+        {
+          "index": 5,
+          "text": "each",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "night.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2,
+            3
+          ],
+          "component": "subject",
+          "chunkGloss": "달의 모양은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "predicate",
+          "chunkGloss": "변한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "매일 밤"
+        }
+      ],
+      "translation": "달의 모양은 매일 밤 변한다."
+    },
+    {
+      "id": "q43",
+      "sentence": "We see a full moon monthly.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "We",
+          "pos": "pronoun"
+        },
+        {
+          "index": 2,
+          "text": "see",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "a",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "full",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "moon",
+          "pos": "noun"
+        },
+        {
+          "index": 6,
+          "text": "monthly.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "우리는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "본다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "보름달을"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "한 달에 한 번"
+        }
+      ],
+      "translation": "우리는 한 달에 한 번 보름달을 본다."
+    },
+    {
+      "id": "q44",
+      "sentence": "The Sun is a giant star.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "Sun",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "is",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "a",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "giant",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "star.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "태양은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "이다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "complement",
+          "chunkGloss": "거대한 별"
+        }
+      ],
+      "translation": "태양은 거대한 별이다."
+    },
+    {
+      "id": "q45",
+      "sentence": "Stars look small from the Earth.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Stars",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "look",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "small",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "from",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "Earth.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "별은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "보인다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "complement",
+          "chunkGloss": "작게"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "지구에서"
+        }
+      ],
+      "translation": "별은 지구에서 작게 보인다."
+    },
+    {
+      "id": "q46",
+      "sentence": "Craters cover the Moon's surface.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Craters",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "cover",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "Moon's",
+          "pos": "noun"
+        },
+        {
+          "index": 5,
+          "text": "surface.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "분화구는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "덮는다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "달의 표면을"
+        }
+      ],
+      "translation": "분화구는 달의 표면을 덮는다."
+    },
+    {
+      "id": "q47",
+      "sentence": "The North Star shows the north.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "North",
+          "pos": "adjective"
+        },
+        {
+          "index": 3,
+          "text": "Star",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "shows",
+          "pos": "verb"
+        },
+        {
+          "index": 5,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "north.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2,
+            3
+          ],
+          "component": "subject",
+          "chunkGloss": "북극성은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "predicate",
+          "chunkGloss": "알려 준다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "북쪽을"
+        }
+      ],
+      "translation": "북극성은 북쪽을 알려 준다."
+    },
+    {
+      "id": "q48",
+      "sentence": "Air is a mixture of gases.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Air",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "is",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "a",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "mixture",
+          "pos": "noun"
+        },
+        {
+          "index": 5,
+          "text": "of",
+          "pos": "preposition"
+        },
+        {
+          "index": 6,
+          "text": "gases.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "공기는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "이다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "component": "complement",
+          "chunkGloss": "기체의 혼합물"
+        }
+      ],
+      "translation": "공기는 기체의 혼합물이다."
+    },
+    {
+      "id": "q49",
+      "sentence": "Oxygen helps every living thing.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Oxygen",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "helps",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "every",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "living",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "thing.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "산소는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "돕는다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "모든 생물을"
+        }
+      ],
+      "translation": "산소는 모든 생물을 돕는다."
+    },
+    {
+      "id": "q50",
+      "sentence": "Plants release oxygen into the air.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Plants",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "release",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "oxygen",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "into",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "air.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "식물은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "내보낸다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "object",
+          "chunkGloss": "산소를"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "공기 중으로"
+        }
+      ],
+      "translation": "식물은 공기 중으로 산소를 내보낸다."
+    },
+    {
+      "id": "q51",
+      "sentence": "Carbon dioxide makes lime water cloudy.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Carbon",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "dioxide",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "makes",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "lime",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "water",
+          "pos": "noun"
+        },
+        {
+          "index": 6,
+          "text": "cloudy.",
+          "pos": "adjective"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "이산화탄소는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "만든다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "석회수를"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            6
+          ],
+          "component": "complement",
+          "chunkGloss": "뿌옇게"
+        }
+      ],
+      "translation": "이산화탄소는 석회수를 뿌옇게 만든다."
+    },
+    {
+      "id": "q52",
+      "sentence": "Gas spreads out in every direction.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Gas",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "spreads",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "out",
+          "pos": "adverb"
+        },
+        {
+          "index": 4,
+          "text": "in",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "every",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "direction.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "기체는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2,
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "퍼져 나간다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "모든 방향으로"
+        }
+      ],
+      "translation": "기체는 모든 방향으로 퍼져 나간다."
+    },
+    {
+      "id": "q53",
+      "sentence": "Warm air rises above cold air.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Warm",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "air",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "rises",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "above",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "cold",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "air.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "따뜻한 공기는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "올라간다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "차가운 공기 위로"
+        }
+      ],
+      "translation": "따뜻한 공기는 차가운 공기 위로 올라간다."
+    },
+    {
+      "id": "q54",
+      "sentence": "Helium is lighter than air.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Helium",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "is",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "lighter",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "than",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "air.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "헬륨은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "이다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "complement",
+          "chunkGloss": "공기보다 가볍다"
+        }
+      ],
+      "translation": "헬륨은 공기보다 가볍다."
+    },
+    {
+      "id": "q55",
+      "sentence": "Plants make food from sunlight.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Plants",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "make",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "food",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "from",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "sunlight.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "식물은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "만든다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "object",
+          "chunkGloss": "양분을"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "햇빛으로"
+        }
+      ],
+      "translation": "식물은 햇빛으로 양분을 만든다."
+    },
+    {
+      "id": "q56",
+      "sentence": "Animals eat plants for energy.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Animals",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "eat",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "plants",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "for",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "energy.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "동물은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "먹는다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "object",
+          "chunkGloss": "식물을"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "에너지를 위해"
+        }
+      ],
+      "translation": "동물은 에너지를 얻기 위해 식물을 먹는다."
+    },
+    {
+      "id": "q57",
+      "sentence": "A food chain links living things.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "A",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "food",
+          "pos": "adjective"
+        },
+        {
+          "index": 3,
+          "text": "chain",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "links",
+          "pos": "verb"
+        },
+        {
+          "index": 5,
+          "text": "living",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "things.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2,
+            3
+          ],
+          "component": "subject",
+          "chunkGloss": "먹이 사슬은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "predicate",
+          "chunkGloss": "연결한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "생물들을"
+        }
+      ],
+      "translation": "먹이 사슬은 생물들을 연결한다."
+    },
+    {
+      "id": "q58",
+      "sentence": "Decomposers break down dead leaves.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Decomposers",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "break",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "down",
+          "pos": "adverb"
+        },
+        {
+          "index": 4,
+          "text": "dead",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "leaves.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "분해자는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2,
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "분해한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "죽은 잎을"
+        }
+      ],
+      "translation": "분해자는 죽은 잎을 분해한다."
+    },
+    {
+      "id": "q59",
+      "sentence": "Sunlight gives energy to the plants.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Sunlight",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "gives",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "energy",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "to",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "plants.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "햇빛은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "준다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "object",
+          "chunkGloss": "에너지를"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "식물에게"
+        }
+      ],
+      "translation": "햇빛은 식물에게 에너지를 준다."
+    },
+    {
+      "id": "q60",
+      "sentence": "Some animals hunt smaller animals.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Some",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "animals",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "hunt",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "smaller",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "animals.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "어떤 동물은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "사냥한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "더 작은 동물을"
+        }
+      ],
+      "translation": "어떤 동물은 더 작은 동물을 사냥한다."
+    },
+    {
+      "id": "q61",
+      "sentence": "Living things need clean water.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Living",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "things",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "need",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "clean",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "water.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "생물은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "필요로 한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "깨끗한 물을"
+        }
+      ],
+      "translation": "생물은 깨끗한 물을 필요로 한다."
+    },
+    {
+      "id": "q62",
+      "sentence": "Mold grows well in warm places.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Mold",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "grows",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "well",
+          "pos": "adverb"
+        },
+        {
+          "index": 4,
+          "text": "in",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "warm",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "places.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "곰팡이는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "자란다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "modifier",
+          "chunkGloss": "잘"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "따뜻한 곳에서"
+        }
+      ],
+      "translation": "곰팡이는 따뜻한 곳에서 잘 자란다."
+    },
+    {
+      "id": "q63",
+      "sentence": "Bacteria are very tiny living things.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Bacteria",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "are",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "very",
+          "pos": "adverb"
+        },
+        {
+          "index": 4,
+          "text": "tiny",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "living",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "things.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "세균은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "이다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "component": "complement",
+          "chunkGloss": "매우 작은 생물"
+        }
+      ],
+      "translation": "세균은 매우 작은 생물이다."
+    },
+    {
+      "id": "q64",
+      "sentence": "A forest gives homes to many animals.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "A",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "forest",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "gives",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "homes",
+          "pos": "noun"
+        },
+        {
+          "index": 5,
+          "text": "to",
+          "pos": "preposition"
+        },
+        {
+          "index": 6,
+          "text": "many",
+          "pos": "adjective"
+        },
+        {
+          "index": 7,
+          "text": "animals.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "숲은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "준다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "object",
+          "chunkGloss": "보금자리를"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            5,
+            6,
+            7
+          ],
+          "component": "modifier",
+          "chunkGloss": "많은 동물에게"
+        }
+      ],
+      "translation": "숲은 많은 동물에게 보금자리를 준다."
+    },
+    {
+      "id": "q65",
+      "sentence": "Earthworms live under the wet soil.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Earthworms",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "live",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "under",
+          "pos": "preposition"
+        },
+        {
+          "index": 4,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "wet",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "soil.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "지렁이는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "산다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "젖은 흙 아래에서"
+        }
+      ],
+      "translation": "지렁이는 젖은 흙 아래에서 산다."
+    },
+    {
+      "id": "q66",
+      "sentence": "Roots take in water from the soil.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Roots",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "take",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "in",
+          "pos": "adverb"
+        },
+        {
+          "index": 4,
+          "text": "water",
+          "pos": "noun"
+        },
+        {
+          "index": 5,
+          "text": "from",
+          "pos": "preposition"
+        },
+        {
+          "index": 6,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 7,
+          "text": "soil.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "뿌리는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2,
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "흡수한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "object",
+          "chunkGloss": "물을"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            5,
+            6,
+            7
+          ],
+          "component": "modifier",
+          "chunkGloss": "흙에서"
+        }
+      ],
+      "translation": "뿌리는 흙에서 물을 흡수한다."
+    },
+    {
+      "id": "q67",
+      "sentence": "A stem carries water to the leaves.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "A",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "stem",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "carries",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "water",
+          "pos": "noun"
+        },
+        {
+          "index": 5,
+          "text": "to",
+          "pos": "preposition"
+        },
+        {
+          "index": 6,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 7,
+          "text": "leaves.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "줄기는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "운반한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "object",
+          "chunkGloss": "물을"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            5,
+            6,
+            7
+          ],
+          "component": "modifier",
+          "chunkGloss": "잎으로"
+        }
+      ],
+      "translation": "줄기는 잎으로 물을 운반한다."
+    },
+    {
+      "id": "q68",
+      "sentence": "Green leaves make food in sunlight.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Green",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "leaves",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "make",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "food",
+          "pos": "noun"
+        },
+        {
+          "index": 5,
+          "text": "in",
+          "pos": "preposition"
+        },
+        {
+          "index": 6,
+          "text": "sunlight.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "초록 잎은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "만든다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "object",
+          "chunkGloss": "양분을"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "햇빛 속에서"
+        }
+      ],
+      "translation": "초록 잎은 햇빛 속에서 양분을 만든다."
+    },
+    {
+      "id": "q69",
+      "sentence": "Bright flowers attract many busy bees.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Bright",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "flowers",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "attract",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "many",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "busy",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "bees.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "밝은 꽃은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "끌어들인다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "바쁜 벌들을"
+        }
+      ],
+      "translation": "밝은 꽃은 바쁜 벌들을 끌어들인다."
+    },
+    {
+      "id": "q70",
+      "sentence": "Small seeds grow into new plants.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Small",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "seeds",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "grow",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "into",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "new",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "plants.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "작은 씨앗은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "자란다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "새 식물로"
+        }
+      ],
+      "translation": "작은 씨앗은 새 식물로 자란다."
+    },
+    {
+      "id": "q71",
+      "sentence": "A tree drops its leaves in fall.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "A",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "tree",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "drops",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "its",
+          "pos": "pronoun"
+        },
+        {
+          "index": 5,
+          "text": "leaves",
+          "pos": "noun"
+        },
+        {
+          "index": 6,
+          "text": "in",
+          "pos": "preposition"
+        },
+        {
+          "index": 7,
+          "text": "fall.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "나무는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "떨어뜨린다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "자기 잎을"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            6,
+            7
+          ],
+          "component": "modifier",
+          "chunkGloss": "가을에"
+        }
+      ],
+      "translation": "나무는 가을에 잎을 떨어뜨린다."
+    },
+    {
+      "id": "q72",
+      "sentence": "Roots hold the plant in place.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Roots",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "hold",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "plant",
+          "pos": "noun"
+        },
+        {
+          "index": 5,
+          "text": "in",
+          "pos": "preposition"
+        },
+        {
+          "index": 6,
+          "text": "place.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "뿌리는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "고정한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4
+          ],
+          "component": "object",
+          "chunkGloss": "식물을"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "제자리에"
+        }
+      ],
+      "translation": "뿌리는 식물을 제자리에 고정한다."
+    },
+    {
+      "id": "q73",
+      "sentence": "Heat moves from hot to cold places.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Heat",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "moves",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "from",
+          "pos": "preposition"
+        },
+        {
+          "index": 4,
+          "text": "hot",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "to",
+          "pos": "preposition"
+        },
+        {
+          "index": 6,
+          "text": "cold",
+          "pos": "adjective"
+        },
+        {
+          "index": 7,
+          "text": "places.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "열은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "이동한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "component": "modifier",
+          "chunkGloss": "뜨거운 곳에서 차가운 곳으로"
+        }
+      ],
+      "translation": "열은 뜨거운 곳에서 차가운 곳으로 이동한다."
+    },
+    {
+      "id": "q74",
+      "sentence": "Metal feels colder than wood.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Metal",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "feels",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "colder",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "than",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "wood.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "금속은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "느껴진다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "complement",
+          "chunkGloss": "나무보다 차갑게"
+        }
+      ],
+      "translation": "금속은 나무보다 차갑게 느껴진다."
+    },
+    {
+      "id": "q75",
+      "sentence": "The Sun warms the land and sea.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "Sun",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "warms",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "land",
+          "pos": "noun"
+        },
+        {
+          "index": 6,
+          "text": "and",
+          "pos": "conjunction"
+        },
+        {
+          "index": 7,
+          "text": "sea.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "태양은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "데운다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "component": "object",
+          "chunkGloss": "땅과 바다를"
+        }
+      ],
+      "translation": "태양은 땅과 바다를 데운다."
+    },
+    {
+      "id": "q76",
+      "sentence": "A moving car has kinetic energy.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "A",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "moving",
+          "pos": "adjective"
+        },
+        {
+          "index": 3,
+          "text": "car",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "has",
+          "pos": "verb"
+        },
+        {
+          "index": 5,
+          "text": "kinetic",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "energy.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2,
+            3
+          ],
+          "component": "subject",
+          "chunkGloss": "움직이는 자동차는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "predicate",
+          "chunkGloss": "가지고 있다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "운동 에너지를"
+        }
+      ],
+      "translation": "움직이는 자동차는 운동 에너지를 가지고 있다."
+    },
+    {
+      "id": "q77",
+      "sentence": "Plants store energy in their seeds.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Plants",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "store",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "energy",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "in",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "their",
+          "pos": "pronoun"
+        },
+        {
+          "index": 6,
+          "text": "seeds.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "식물은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "저장한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "object",
+          "chunkGloss": "에너지를"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "씨앗 속에"
+        }
+      ],
+      "translation": "식물은 씨앗 속에 에너지를 저장한다."
+    },
+    {
+      "id": "q78",
+      "sentence": "We get energy from our food.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "We",
+          "pos": "pronoun"
+        },
+        {
+          "index": 2,
+          "text": "get",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "energy",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "from",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "our",
+          "pos": "pronoun"
+        },
+        {
+          "index": 6,
+          "text": "food.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "우리는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "얻는다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "object",
+          "chunkGloss": "에너지를"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "음식에서"
+        }
+      ],
+      "translation": "우리는 음식에서 에너지를 얻는다."
+    },
+    {
+      "id": "q79",
+      "sentence": "Strong wind turns a big turbine.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Strong",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "wind",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "turns",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "a",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "big",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "turbine.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "강한 바람은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "돌린다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "큰 터빈을"
+        }
+      ],
+      "translation": "강한 바람은 큰 터빈을 돌린다."
+    },
+    {
+      "id": "q80",
+      "sentence": "Solar panels make clean electricity.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Solar",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "panels",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "make",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "clean",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "electricity.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "태양광 패널은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "만든다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "깨끗한 전기를"
+        }
+      ],
+      "translation": "태양광 패널은 깨끗한 전기를 만든다."
+    },
+    {
+      "id": "q81",
+      "sentence": "Energy changes from one form to another.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Energy",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "changes",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "from",
+          "pos": "preposition"
+        },
+        {
+          "index": 4,
+          "text": "one",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "form",
+          "pos": "noun"
+        },
+        {
+          "index": 6,
+          "text": "to",
+          "pos": "preposition"
+        },
+        {
+          "index": 7,
+          "text": "another.",
+          "pos": "pronoun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "에너지는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "바뀐다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "component": "modifier",
+          "chunkGloss": "한 형태에서 다른 형태로"
+        }
+      ],
+      "translation": "에너지는 한 형태에서 다른 형태로 바뀐다."
+    },
+    {
+      "id": "q82",
+      "sentence": "Water becomes ice below zero.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Water",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "becomes",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "ice",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "below",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "zero.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "물은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "된다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "complement",
+          "chunkGloss": "얼음이"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "영하에서"
+        }
+      ],
+      "translation": "물은 영하에서 얼음이 된다."
+    },
+    {
+      "id": "q83",
+      "sentence": "Hot steam rises from the pot.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Hot",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "steam",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "rises",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "from",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "pot.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "뜨거운 김은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "올라온다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "냄비에서"
+        }
+      ],
+      "translation": "뜨거운 김은 냄비에서 올라온다."
+    },
+    {
+      "id": "q84",
+      "sentence": "Clouds form from tiny water drops.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Clouds",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "form",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "from",
+          "pos": "preposition"
+        },
+        {
+          "index": 4,
+          "text": "tiny",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "water",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "drops.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "구름은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "만들어진다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "작은 물방울에서"
+        }
+      ],
+      "translation": "구름은 작은 물방울에서 만들어진다."
+    },
+    {
+      "id": "q85",
+      "sentence": "Heavy rain falls from gray clouds.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Heavy",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "rain",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "falls",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "from",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "gray",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "clouds.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "거센 비는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "내린다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "회색 구름에서"
+        }
+      ],
+      "translation": "거센 비는 회색 구름에서 내린다."
+    },
+    {
+      "id": "q86",
+      "sentence": "White snow covers the cold ground.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "White",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "snow",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "covers",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "cold",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "ground.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "하얀 눈은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "덮는다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "차가운 땅을"
+        }
+      ],
+      "translation": "하얀 눈은 차가운 땅을 덮는다."
+    },
+    {
+      "id": "q87",
+      "sentence": "The wind blows the leaves around.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "wind",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "blows",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "leaves",
+          "pos": "noun"
+        },
+        {
+          "index": 6,
+          "text": "around.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "바람은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "날린다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "나뭇잎을"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "이리저리"
+        }
+      ],
+      "translation": "바람은 나뭇잎을 이리저리 날린다."
+    },
+    {
+      "id": "q88",
+      "sentence": "Water evaporates under the hot sun.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Water",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "evaporates",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "under",
+          "pos": "preposition"
+        },
+        {
+          "index": 4,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "hot",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "sun.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "물은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "증발한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "뜨거운 태양 아래에서"
+        }
+      ],
+      "translation": "물은 뜨거운 태양 아래에서 증발한다."
+    },
+    {
+      "id": "q89",
+      "sentence": "Ice melts slowly in warm air.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Ice",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "melts",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "slowly",
+          "pos": "adverb"
+        },
+        {
+          "index": 4,
+          "text": "in",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "warm",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "air.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "얼음은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "녹는다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "modifier",
+          "chunkGloss": "천천히"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "따뜻한 공기 속에서"
+        }
+      ],
+      "translation": "얼음은 따뜻한 공기 속에서 천천히 녹는다."
+    },
+    {
+      "id": "q90",
+      "sentence": "Fog hides the morning road.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Fog",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "hides",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "morning",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "road.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "안개는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "가린다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "아침 길을"
+        }
+      ],
+      "translation": "안개는 아침 길을 가린다."
+    },
+    {
+      "id": "q91",
+      "sentence": "A fast train moves very quickly.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "A",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "fast",
+          "pos": "adjective"
+        },
+        {
+          "index": 3,
+          "text": "train",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "moves",
+          "pos": "verb"
+        },
+        {
+          "index": 5,
+          "text": "very",
+          "pos": "adverb"
+        },
+        {
+          "index": 6,
+          "text": "quickly.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2,
+            3
+          ],
+          "component": "subject",
+          "chunkGloss": "빠른 기차는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "predicate",
+          "chunkGloss": "달린다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "매우 빠르게"
+        }
+      ],
+      "translation": "빠른 기차는 매우 빠르게 달린다."
+    },
+    {
+      "id": "q92",
+      "sentence": "The ball rolls down the hill.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "ball",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "rolls",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "down",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "hill.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "공은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "굴러간다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "언덕 아래로"
+        }
+      ],
+      "translation": "공은 언덕 아래로 굴러간다."
+    },
+    {
+      "id": "q93",
+      "sentence": "A heavy box moves very slowly.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "A",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "heavy",
+          "pos": "adjective"
+        },
+        {
+          "index": 3,
+          "text": "box",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "moves",
+          "pos": "verb"
+        },
+        {
+          "index": 5,
+          "text": "very",
+          "pos": "adverb"
+        },
+        {
+          "index": 6,
+          "text": "slowly.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2,
+            3
+          ],
+          "component": "subject",
+          "chunkGloss": "무거운 상자는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "predicate",
+          "chunkGloss": "움직인다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "아주 천천히"
+        }
+      ],
+      "translation": "무거운 상자는 아주 천천히 움직인다."
+    },
+    {
+      "id": "q94",
+      "sentence": "A magnet pulls iron nails.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "A",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "magnet",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "pulls",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "iron",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "nails.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "자석은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "끌어당긴다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "쇠못을"
+        }
+      ],
+      "translation": "자석은 쇠못을 끌어당긴다."
+    },
+    {
+      "id": "q95",
+      "sentence": "Lemon juice tastes very sour.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Lemon",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "juice",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "tastes",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "very",
+          "pos": "adverb"
+        },
+        {
+          "index": 5,
+          "text": "sour.",
+          "pos": "adjective"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "레몬즙은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "맛이 난다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "complement",
+          "chunkGloss": "매우 신"
+        }
+      ],
+      "translation": "레몬즙은 매우 신맛이 난다."
+    },
+    {
+      "id": "q96",
+      "sentence": "Soap feels slippery on our hands.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Soap",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "feels",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "slippery",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "on",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "our",
+          "pos": "pronoun"
+        },
+        {
+          "index": 6,
+          "text": "hands.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "비누는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "느껴진다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "complement",
+          "chunkGloss": "미끄럽게"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "손에서"
+        }
+      ],
+      "translation": "비누는 손에서 미끄럽게 느껴진다."
+    },
+    {
+      "id": "q97",
+      "sentence": "A thermometer measures the air temperature.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "A",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "thermometer",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "measures",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "air",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "temperature.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "온도계는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "측정한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "기온을"
+        }
+      ],
+      "translation": "온도계는 기온을 측정한다."
+    },
+    {
+      "id": "q98",
+      "sentence": "Sound travels through the air fast.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Sound",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "travels",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "through",
+          "pos": "preposition"
+        },
+        {
+          "index": 4,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "air",
+          "pos": "noun"
+        },
+        {
+          "index": 6,
+          "text": "fast.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "소리는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "이동한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "공기를 통해"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "빠르게"
+        }
+      ],
+      "translation": "소리는 공기를 통해 빠르게 이동한다."
+    },
+    {
+      "id": "q99",
+      "sentence": "A compass needle points to the north.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "A",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "compass",
+          "pos": "adjective"
+        },
+        {
+          "index": 3,
+          "text": "needle",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "points",
+          "pos": "verb"
+        },
+        {
+          "index": 5,
+          "text": "to",
+          "pos": "preposition"
+        },
+        {
+          "index": 6,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 7,
+          "text": "north.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2,
+            3
+          ],
+          "component": "subject",
+          "chunkGloss": "나침반 바늘은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "predicate",
+          "chunkGloss": "가리킨다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            5,
+            6,
+            7
+          ],
+          "component": "modifier",
+          "chunkGloss": "북쪽을"
+        }
+      ],
+      "translation": "나침반 바늘은 북쪽을 가리킨다."
+    },
+    {
+      "id": "q100",
+      "sentence": "Scientists study the natural world carefully.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Scientists",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "study",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "natural",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "world",
+          "pos": "noun"
+        },
+        {
+          "index": 6,
+          "text": "carefully.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "과학자들은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "연구한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "자연 세계를"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "주의 깊게"
+        }
+      ],
+      "translation": "과학자들은 자연 세계를 주의 깊게 연구한다."
+    }
+  ]
+}

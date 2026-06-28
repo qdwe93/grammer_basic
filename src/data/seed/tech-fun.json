@@ -1,0 +1,6471 @@
+{
+  "id": "tech-fun",
+  "title": "게임·IT — 마크·신칸센·AI·파이썬 100문장",
+  "language": "en",
+  "source": "seed",
+  "questions": [
+    {
+      "id": "q1",
+      "sentence": "Players build houses with blocks.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Players",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "build",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "houses",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "with",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "blocks.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "플레이어는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "짓는다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "object",
+          "chunkGloss": "집을"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "블록으로"
+        }
+      ],
+      "translation": "플레이어는 블록으로 집을 짓는다."
+    },
+    {
+      "id": "q2",
+      "sentence": "Minecraft has a huge open world.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Minecraft",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "has",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "a",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "huge",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "open",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "world.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "마인크래프트는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "가지고 있다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "거대한 열린 세계를"
+        }
+      ],
+      "translation": "마인크래프트는 거대한 열린 세계를 가지고 있다."
+    },
+    {
+      "id": "q3",
+      "sentence": "Creepers explode near the players.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Creepers",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "explode",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "near",
+          "pos": "preposition"
+        },
+        {
+          "index": 4,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "players.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "크리퍼는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "폭발한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "플레이어 근처에서"
+        }
+      ],
+      "translation": "크리퍼는 플레이어 근처에서 폭발한다."
+    },
+    {
+      "id": "q4",
+      "sentence": "Miners dig deep for diamonds.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Miners",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "dig",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "deep",
+          "pos": "adverb"
+        },
+        {
+          "index": 4,
+          "text": "for",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "diamonds.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "광부는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "판다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "modifier",
+          "chunkGloss": "깊이"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "다이아몬드를 찾아"
+        }
+      ],
+      "translation": "광부는 다이아몬드를 찾아 깊이 판다."
+    },
+    {
+      "id": "q5",
+      "sentence": "A crafting table makes useful tools.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "A",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "crafting",
+          "pos": "adjective"
+        },
+        {
+          "index": 3,
+          "text": "table",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "makes",
+          "pos": "verb"
+        },
+        {
+          "index": 5,
+          "text": "useful",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "tools.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2,
+            3
+          ],
+          "component": "subject",
+          "chunkGloss": "제작대는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "predicate",
+          "chunkGloss": "만든다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "유용한 도구를"
+        }
+      ],
+      "translation": "제작대는 유용한 도구를 만든다."
+    },
+    {
+      "id": "q6",
+      "sentence": "Players craft swords and pickaxes.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Players",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "craft",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "swords",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "and",
+          "pos": "conjunction"
+        },
+        {
+          "index": 5,
+          "text": "pickaxes.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "플레이어는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "제작한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "검과 곡괭이를"
+        }
+      ],
+      "translation": "플레이어는 검과 곡괭이를 제작한다."
+    },
+    {
+      "id": "q7",
+      "sentence": "Zombies appear at night.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Zombies",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "appear",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "at",
+          "pos": "preposition"
+        },
+        {
+          "index": 4,
+          "text": "night.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "좀비는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "나타난다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4
+          ],
+          "component": "modifier",
+          "chunkGloss": "밤에"
+        }
+      ],
+      "translation": "좀비는 밤에 나타난다."
+    },
+    {
+      "id": "q8",
+      "sentence": "The player survives in survival mode.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "player",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "survives",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "in",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "survival",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "mode.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "플레이어는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "생존한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "서바이벌 모드에서"
+        }
+      ],
+      "translation": "플레이어는 서바이벌 모드에서 생존한다."
+    },
+    {
+      "id": "q9",
+      "sentence": "Redstone powers clever machines.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Redstone",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "powers",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "clever",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "machines.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "레드스톤은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "작동시킨다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4
+          ],
+          "component": "object",
+          "chunkGloss": "영리한 기계를"
+        }
+      ],
+      "translation": "레드스톤은 영리한 기계를 작동시킨다."
+    },
+    {
+      "id": "q10",
+      "sentence": "Players tame wolves easily.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Players",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "tame",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "wolves",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "easily.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "플레이어는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "길들인다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "object",
+          "chunkGloss": "늑대를"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "modifier",
+          "chunkGloss": "쉽게"
+        }
+      ],
+      "translation": "플레이어는 늑대를 쉽게 길들인다."
+    },
+    {
+      "id": "q11",
+      "sentence": "Villagers trade emeralds for food.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Villagers",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "trade",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "emeralds",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "for",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "food.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "주민은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "거래한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "object",
+          "chunkGloss": "에메랄드를"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "음식과"
+        }
+      ],
+      "translation": "주민은 음식을 받고 에메랄드를 거래한다."
+    },
+    {
+      "id": "q12",
+      "sentence": "Farmers grow wheat on farms.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Farmers",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "grow",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "wheat",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "on",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "farms.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "농부는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "기른다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "object",
+          "chunkGloss": "밀을"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "농장에서"
+        }
+      ],
+      "translation": "농부는 농장에서 밀을 기른다."
+    },
+    {
+      "id": "q13",
+      "sentence": "The Nether is a dangerous place.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "Nether",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "is",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "a",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "dangerous",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "place.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "네더는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "이다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "complement",
+          "chunkGloss": "위험한 곳"
+        }
+      ],
+      "translation": "네더는 위험한 곳이다."
+    },
+    {
+      "id": "q14",
+      "sentence": "Players mine coal for fuel.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Players",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "mine",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "coal",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "for",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "fuel.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "플레이어는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "캔다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "object",
+          "chunkGloss": "석탄을"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "연료로"
+        }
+      ],
+      "translation": "플레이어는 연료로 석탄을 캔다."
+    },
+    {
+      "id": "q15",
+      "sentence": "Torches light the dark caves.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Torches",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "light",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "dark",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "caves.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "횃불은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "밝힌다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "어두운 동굴을"
+        }
+      ],
+      "translation": "횃불은 어두운 동굴을 밝힌다."
+    },
+    {
+      "id": "q16",
+      "sentence": "Many children love this creative game.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Many",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "children",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "love",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "this",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "creative",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "game.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "많은 아이들은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "좋아한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "이 창의적인 게임을"
+        }
+      ],
+      "translation": "많은 아이들은 이 창의적인 게임을 좋아한다."
+    },
+    {
+      "id": "q17",
+      "sentence": "The Exit 8 is a scary game.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "Exit",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "8",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "is",
+          "pos": "verb"
+        },
+        {
+          "index": 5,
+          "text": "a",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "scary",
+          "pos": "adjective"
+        },
+        {
+          "index": 7,
+          "text": "game.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2,
+            3
+          ],
+          "component": "subject",
+          "chunkGloss": "8번 출구는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "predicate",
+          "chunkGloss": "이다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            5,
+            6,
+            7
+          ],
+          "component": "complement",
+          "chunkGloss": "무서운 게임"
+        }
+      ],
+      "translation": "8번 출구는 무서운 게임이다."
+    },
+    {
+      "id": "q18",
+      "sentence": "A man walks through the station.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "A",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "man",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "walks",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "through",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "station.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "한 남자는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "걷는다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "역을 지나"
+        }
+      ],
+      "translation": "한 남자는 역을 지나 걷는다."
+    },
+    {
+      "id": "q19",
+      "sentence": "Players look for strange anomalies.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Players",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "look",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "for",
+          "pos": "preposition"
+        },
+        {
+          "index": 4,
+          "text": "strange",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "anomalies.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "플레이어는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "찾는다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "이상한 변화를"
+        }
+      ],
+      "translation": "플레이어는 이상한 변화를 찾는다."
+    },
+    {
+      "id": "q20",
+      "sentence": "The player must notice small changes.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "player",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "must",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "notice",
+          "pos": "verb"
+        },
+        {
+          "index": 5,
+          "text": "small",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "changes.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "플레이어는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3,
+            4
+          ],
+          "component": "predicate",
+          "chunkGloss": "알아채야 한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "작은 변화를"
+        }
+      ],
+      "translation": "플레이어는 작은 변화를 알아채야 한다."
+    },
+    {
+      "id": "q21",
+      "sentence": "The same hallway repeats again.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "same",
+          "pos": "adjective"
+        },
+        {
+          "index": 3,
+          "text": "hallway",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "repeats",
+          "pos": "verb"
+        },
+        {
+          "index": 5,
+          "text": "again.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2,
+            3
+          ],
+          "component": "subject",
+          "chunkGloss": "같은 복도가"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "predicate",
+          "chunkGloss": "반복된다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "다시"
+        }
+      ],
+      "translation": "같은 복도가 다시 반복된다."
+    },
+    {
+      "id": "q22",
+      "sentence": "The player turns back at anomalies.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "player",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "turns",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "back",
+          "pos": "adverb"
+        },
+        {
+          "index": 5,
+          "text": "at",
+          "pos": "preposition"
+        },
+        {
+          "index": 6,
+          "text": "anomalies.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "플레이어는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3,
+            4
+          ],
+          "component": "predicate",
+          "chunkGloss": "되돌아간다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "이상 현상에서"
+        }
+      ],
+      "translation": "플레이어는 이상 현상에서 되돌아간다."
+    },
+    {
+      "id": "q23",
+      "sentence": "The eighth exit means freedom.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "eighth",
+          "pos": "adjective"
+        },
+        {
+          "index": 3,
+          "text": "exit",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "means",
+          "pos": "verb"
+        },
+        {
+          "index": 5,
+          "text": "freedom.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2,
+            3
+          ],
+          "component": "subject",
+          "chunkGloss": "여덟 번째 출구는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "predicate",
+          "chunkGloss": "의미한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "탈출을"
+        }
+      ],
+      "translation": "여덟 번째 출구는 탈출을 의미한다."
+    },
+    {
+      "id": "q24",
+      "sentence": "A strange man passes by slowly.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "A",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "strange",
+          "pos": "adjective"
+        },
+        {
+          "index": 3,
+          "text": "man",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "passes",
+          "pos": "verb"
+        },
+        {
+          "index": 5,
+          "text": "by",
+          "pos": "adverb"
+        },
+        {
+          "index": 6,
+          "text": "slowly.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2,
+            3
+          ],
+          "component": "subject",
+          "chunkGloss": "이상한 남자가"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "predicate",
+          "chunkGloss": "지나간다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "천천히"
+        }
+      ],
+      "translation": "이상한 남자가 천천히 지나간다."
+    },
+    {
+      "id": "q25",
+      "sentence": "The game tests your attention.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "game",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "tests",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "your",
+          "pos": "pronoun"
+        },
+        {
+          "index": 5,
+          "text": "attention.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "그 게임은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "시험한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "당신의 주의력을"
+        }
+      ],
+      "translation": "그 게임은 당신의 주의력을 시험한다."
+    },
+    {
+      "id": "q26",
+      "sentence": "Bright lights fill the long hallway.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Bright",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "lights",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "fill",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "long",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "hallway.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "밝은 불빛이"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "채운다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "긴 복도를"
+        }
+      ],
+      "translation": "밝은 불빛이 긴 복도를 채운다."
+    },
+    {
+      "id": "q27",
+      "sentence": "The Shinkansen runs very fast.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "Shinkansen",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "runs",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "very",
+          "pos": "adverb"
+        },
+        {
+          "index": 5,
+          "text": "fast.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "신칸센은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "달린다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "매우 빠르게"
+        }
+      ],
+      "translation": "신칸센은 매우 빠르게 달린다."
+    },
+    {
+      "id": "q28",
+      "sentence": "Japan built the first bullet train.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Japan",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "built",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "first",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "bullet",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "train.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "일본은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "만들었다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "최초의 고속열차를"
+        }
+      ],
+      "translation": "일본은 최초의 고속열차를 만들었다."
+    },
+    {
+      "id": "q29",
+      "sentence": "The train carries many passengers daily.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "train",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "carries",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "many",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "passengers",
+          "pos": "noun"
+        },
+        {
+          "index": 6,
+          "text": "daily.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "그 열차는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "실어 나른다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "많은 승객을"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "날마다"
+        }
+      ],
+      "translation": "그 열차는 날마다 많은 승객을 실어 나른다."
+    },
+    {
+      "id": "q30",
+      "sentence": "Trains connect Tokyo and Osaka.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Trains",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "connect",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "Tokyo",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "and",
+          "pos": "conjunction"
+        },
+        {
+          "index": 5,
+          "text": "Osaka.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "열차는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "연결한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "도쿄와 오사카를"
+        }
+      ],
+      "translation": "열차는 도쿄와 오사카를 연결한다."
+    },
+    {
+      "id": "q31",
+      "sentence": "The bullet train looks like a bird.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "bullet",
+          "pos": "adjective"
+        },
+        {
+          "index": 3,
+          "text": "train",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "looks",
+          "pos": "verb"
+        },
+        {
+          "index": 5,
+          "text": "like",
+          "pos": "preposition"
+        },
+        {
+          "index": 6,
+          "text": "a",
+          "pos": "adjective"
+        },
+        {
+          "index": 7,
+          "text": "bird.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2,
+            3
+          ],
+          "component": "subject",
+          "chunkGloss": "고속열차는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "predicate",
+          "chunkGloss": "보인다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            5,
+            6,
+            7
+          ],
+          "component": "modifier",
+          "chunkGloss": "새처럼"
+        }
+      ],
+      "translation": "고속열차는 새처럼 보인다."
+    },
+    {
+      "id": "q32",
+      "sentence": "Passengers ride the train comfortably.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Passengers",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "ride",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "train",
+          "pos": "noun"
+        },
+        {
+          "index": 5,
+          "text": "comfortably.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "승객은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "탄다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4
+          ],
+          "component": "object",
+          "chunkGloss": "열차를"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "편안하게"
+        }
+      ],
+      "translation": "승객은 열차를 편안하게 탄다."
+    },
+    {
+      "id": "q33",
+      "sentence": "The Shinkansen leaves the station on time.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "Shinkansen",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "leaves",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "station",
+          "pos": "noun"
+        },
+        {
+          "index": 6,
+          "text": "on",
+          "pos": "preposition"
+        },
+        {
+          "index": 7,
+          "text": "time.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "신칸센은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "떠난다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "역을"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            6,
+            7
+          ],
+          "component": "modifier",
+          "chunkGloss": "정시에"
+        }
+      ],
+      "translation": "신칸센은 정시에 역을 떠난다."
+    },
+    {
+      "id": "q34",
+      "sentence": "Fast trains save much time.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Fast",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "trains",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "save",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "much",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "time.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "고속열차는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "절약한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "많은 시간을"
+        }
+      ],
+      "translation": "고속열차는 많은 시간을 절약한다."
+    },
+    {
+      "id": "q35",
+      "sentence": "The smooth train glides quietly.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "smooth",
+          "pos": "adjective"
+        },
+        {
+          "index": 3,
+          "text": "train",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "glides",
+          "pos": "verb"
+        },
+        {
+          "index": 5,
+          "text": "quietly.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2,
+            3
+          ],
+          "component": "subject",
+          "chunkGloss": "매끄러운 열차는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "predicate",
+          "chunkGloss": "미끄러진다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "조용히"
+        }
+      ],
+      "translation": "매끄러운 열차는 조용히 미끄러진다."
+    },
+    {
+      "id": "q36",
+      "sentence": "Engineers design safe modern trains.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Engineers",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "design",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "safe",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "modern",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "trains.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "기술자는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "설계한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "안전한 현대식 열차를"
+        }
+      ],
+      "translation": "기술자는 안전한 현대식 열차를 설계한다."
+    },
+    {
+      "id": "q37",
+      "sentence": "Programmers create fun video games.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Programmers",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "create",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "fun",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "video",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "games.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "프로그래머는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "만든다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "재미있는 비디오 게임을"
+        }
+      ],
+      "translation": "프로그래머는 재미있는 비디오 게임을 만든다."
+    },
+    {
+      "id": "q38",
+      "sentence": "A game needs clear rules.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "A",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "game",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "needs",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "clear",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "rules.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "게임은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "필요로 한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "명확한 규칙을"
+        }
+      ],
+      "translation": "게임은 명확한 규칙을 필요로 한다."
+    },
+    {
+      "id": "q39",
+      "sentence": "The code controls the game character.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "code",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "controls",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "game",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "character.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "코드는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "조종한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "게임 캐릭터를"
+        }
+      ],
+      "translation": "코드는 게임 캐릭터를 조종한다."
+    },
+    {
+      "id": "q40",
+      "sentence": "Players press buttons for actions.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Players",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "press",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "buttons",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "for",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "actions.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "플레이어는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "누른다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "object",
+          "chunkGloss": "버튼을"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "동작을 위해"
+        }
+      ],
+      "translation": "플레이어는 동작을 위해 버튼을 누른다."
+    },
+    {
+      "id": "q41",
+      "sentence": "A loop repeats the same code.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "A",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "loop",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "repeats",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "same",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "code.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "반복문은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "반복한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "같은 코드를"
+        }
+      ],
+      "translation": "반복문은 같은 코드를 반복한다."
+    },
+    {
+      "id": "q42",
+      "sentence": "Bugs break the running game.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Bugs",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "break",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "running",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "game.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "버그는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "망가뜨린다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "실행 중인 게임을"
+        }
+      ],
+      "translation": "버그는 실행 중인 게임을 망가뜨린다."
+    },
+    {
+      "id": "q43",
+      "sentence": "Developers fix the broken code.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Developers",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "fix",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "broken",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "code.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "개발자는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "고친다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "고장 난 코드를"
+        }
+      ],
+      "translation": "개발자는 고장 난 코드를 고친다."
+    },
+    {
+      "id": "q44",
+      "sentence": "The screen shows the player's score.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "screen",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "shows",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "player's",
+          "pos": "noun"
+        },
+        {
+          "index": 6,
+          "text": "score.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "화면은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "보여 준다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "플레이어의 점수를"
+        }
+      ],
+      "translation": "화면은 플레이어의 점수를 보여 준다."
+    },
+    {
+      "id": "q45",
+      "sentence": "A variable stores the game data.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "A",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "variable",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "stores",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "game",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "data.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "변수는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "저장한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "게임 데이터를"
+        }
+      ],
+      "translation": "변수는 게임 데이터를 저장한다."
+    },
+    {
+      "id": "q46",
+      "sentence": "Good games keep players happy.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Good",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "games",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "keep",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "players",
+          "pos": "noun"
+        },
+        {
+          "index": 5,
+          "text": "happy.",
+          "pos": "adjective"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "좋은 게임은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "유지시킨다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "object",
+          "chunkGloss": "플레이어를"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            5
+          ],
+          "component": "complement",
+          "chunkGloss": "즐겁게"
+        }
+      ],
+      "translation": "좋은 게임은 플레이어를 즐겁게 만든다."
+    },
+    {
+      "id": "q47",
+      "sentence": "Designers draw colorful game maps.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Designers",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "draw",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "colorful",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "game",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "maps.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "디자이너는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "그린다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "다채로운 게임 지도를"
+        }
+      ],
+      "translation": "디자이너는 다채로운 게임 지도를 그린다."
+    },
+    {
+      "id": "q48",
+      "sentence": "The engine runs the whole game.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "engine",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "runs",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "whole",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "game.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "엔진은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "구동한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "게임 전체를"
+        }
+      ],
+      "translation": "엔진은 게임 전체를 구동한다."
+    },
+    {
+      "id": "q49",
+      "sentence": "Players win points for speed.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Players",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "win",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "points",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "for",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "speed.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "플레이어는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "얻는다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "object",
+          "chunkGloss": "점수를"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "속도에 대해"
+        }
+      ],
+      "translation": "플레이어는 속도에 대해 점수를 얻는다."
+    },
+    {
+      "id": "q50",
+      "sentence": "A new level appears suddenly.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "A",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "new",
+          "pos": "adjective"
+        },
+        {
+          "index": 3,
+          "text": "level",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "appears",
+          "pos": "verb"
+        },
+        {
+          "index": 5,
+          "text": "suddenly.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2,
+            3
+          ],
+          "component": "subject",
+          "chunkGloss": "새로운 단계가"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "predicate",
+          "chunkGloss": "나타난다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "갑자기"
+        }
+      ],
+      "translation": "새로운 단계가 갑자기 나타난다."
+    },
+    {
+      "id": "q51",
+      "sentence": "Vibe coding feels relaxed and easy.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Vibe",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "coding",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "feels",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "relaxed",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "and",
+          "pos": "conjunction"
+        },
+        {
+          "index": 6,
+          "text": "easy.",
+          "pos": "adjective"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "바이브 코딩은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "느껴진다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "complement",
+          "chunkGloss": "편안하고 쉽게"
+        }
+      ],
+      "translation": "바이브 코딩은 편안하고 쉽게 느껴진다."
+    },
+    {
+      "id": "q52",
+      "sentence": "A coder describes the app simply.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "A",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "coder",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "describes",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "app",
+          "pos": "noun"
+        },
+        {
+          "index": 6,
+          "text": "simply.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "코더는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "설명한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "앱을"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "간단하게"
+        }
+      ],
+      "translation": "코더는 앱을 간단하게 설명한다."
+    },
+    {
+      "id": "q53",
+      "sentence": "The AI writes the real code.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "AI",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "writes",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "real",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "code.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "인공지능은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "작성한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "실제 코드를"
+        }
+      ],
+      "translation": "인공지능은 실제 코드를 작성한다."
+    },
+    {
+      "id": "q54",
+      "sentence": "Developers explain their ideas clearly.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Developers",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "explain",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "their",
+          "pos": "pronoun"
+        },
+        {
+          "index": 4,
+          "text": "ideas",
+          "pos": "noun"
+        },
+        {
+          "index": 5,
+          "text": "clearly.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "개발자는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "설명한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4
+          ],
+          "component": "object",
+          "chunkGloss": "자기 생각을"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "명확하게"
+        }
+      ],
+      "translation": "개발자는 자기 생각을 명확하게 설명한다."
+    },
+    {
+      "id": "q55",
+      "sentence": "The model builds an app quickly.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "model",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "builds",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "an",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "app",
+          "pos": "noun"
+        },
+        {
+          "index": 6,
+          "text": "quickly.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "모델은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "만든다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "앱을"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "빠르게"
+        }
+      ],
+      "translation": "모델은 앱을 빠르게 만든다."
+    },
+    {
+      "id": "q56",
+      "sentence": "Coders test the new feature together.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Coders",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "test",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "new",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "feature",
+          "pos": "noun"
+        },
+        {
+          "index": 6,
+          "text": "together.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "코더들은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "시험한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "새 기능을"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "함께"
+        }
+      ],
+      "translation": "코더들은 새 기능을 함께 시험한다."
+    },
+    {
+      "id": "q57",
+      "sentence": "Vibe coding helps many beginners.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Vibe",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "coding",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "helps",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "many",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "beginners.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "바이브 코딩은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "돕는다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "많은 초보자를"
+        }
+      ],
+      "translation": "바이브 코딩은 많은 초보자를 돕는다."
+    },
+    {
+      "id": "q58",
+      "sentence": "The programmer reads the AI's answer.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "programmer",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "reads",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "AI's",
+          "pos": "noun"
+        },
+        {
+          "index": 6,
+          "text": "answer.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "프로그래머는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "읽는다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "인공지능의 답을"
+        }
+      ],
+      "translation": "프로그래머는 인공지능의 답을 읽는다."
+    },
+    {
+      "id": "q59",
+      "sentence": "They change the code step by step.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "They",
+          "pos": "pronoun"
+        },
+        {
+          "index": 2,
+          "text": "change",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "code",
+          "pos": "noun"
+        },
+        {
+          "index": 5,
+          "text": "step",
+          "pos": "noun"
+        },
+        {
+          "index": 6,
+          "text": "by",
+          "pos": "preposition"
+        },
+        {
+          "index": 7,
+          "text": "step.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "그들은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "바꾼다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4
+          ],
+          "component": "object",
+          "chunkGloss": "코드를"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            5,
+            6,
+            7
+          ],
+          "component": "modifier",
+          "chunkGloss": "차근차근"
+        }
+      ],
+      "translation": "그들은 코드를 차근차근 바꾼다."
+    },
+    {
+      "id": "q60",
+      "sentence": "Simple words make better programs.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Simple",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "words",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "make",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "better",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "programs.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "간단한 말은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "만든다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "더 나은 프로그램을"
+        }
+      ],
+      "translation": "간단한 말은 더 나은 프로그램을 만든다."
+    },
+    {
+      "id": "q61",
+      "sentence": "Artificial intelligence learns from data.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Artificial",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "intelligence",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "learns",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "from",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "data.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "인공지능은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "배운다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "데이터로부터"
+        }
+      ],
+      "translation": "인공지능은 데이터로부터 배운다."
+    },
+    {
+      "id": "q62",
+      "sentence": "AI answers our many questions.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "AI",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "answers",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "our",
+          "pos": "pronoun"
+        },
+        {
+          "index": 4,
+          "text": "many",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "questions.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "인공지능은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "답한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "우리의 많은 질문에"
+        }
+      ],
+      "translation": "인공지능은 우리의 많은 질문에 답한다."
+    },
+    {
+      "id": "q63",
+      "sentence": "Smart robots help busy doctors.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Smart",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "robots",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "help",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "busy",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "doctors.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "똑똑한 로봇은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "돕는다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "바쁜 의사를"
+        }
+      ],
+      "translation": "똑똑한 로봇은 바쁜 의사를 돕는다."
+    },
+    {
+      "id": "q64",
+      "sentence": "A computer recognizes human faces.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "A",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "computer",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "recognizes",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "human",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "faces.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "컴퓨터는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "인식한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "사람의 얼굴을"
+        }
+      ],
+      "translation": "컴퓨터는 사람의 얼굴을 인식한다."
+    },
+    {
+      "id": "q65",
+      "sentence": "AI translates many different languages.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "AI",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "translates",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "many",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "different",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "languages.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "인공지능은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "번역한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "여러 다른 언어를"
+        }
+      ],
+      "translation": "인공지능은 여러 다른 언어를 번역한다."
+    },
+    {
+      "id": "q66",
+      "sentence": "The model predicts tomorrow's weather.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "model",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "predicts",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "tomorrow's",
+          "pos": "noun"
+        },
+        {
+          "index": 5,
+          "text": "weather.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "모델은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "예측한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "내일의 날씨를"
+        }
+      ],
+      "translation": "모델은 내일의 날씨를 예측한다."
+    },
+    {
+      "id": "q67",
+      "sentence": "Self-driving cars read the road.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Self-driving",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "cars",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "read",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "road.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "자율주행차는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "읽는다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "도로를"
+        }
+      ],
+      "translation": "자율주행차는 도로를 읽는다."
+    },
+    {
+      "id": "q68",
+      "sentence": "AI creates beautiful new pictures.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "AI",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "creates",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "beautiful",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "new",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "pictures.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "인공지능은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "만든다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "아름다운 새 그림을"
+        }
+      ],
+      "translation": "인공지능은 아름다운 새 그림을 만든다."
+    },
+    {
+      "id": "q69",
+      "sentence": "Machines learn from many examples.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Machines",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "learn",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "from",
+          "pos": "preposition"
+        },
+        {
+          "index": 4,
+          "text": "many",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "examples.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "기계는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "배운다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "많은 예시로부터"
+        }
+      ],
+      "translation": "기계는 많은 예시로부터 배운다."
+    },
+    {
+      "id": "q70",
+      "sentence": "AI helps tired students.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "AI",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "helps",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "tired",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "students.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "인공지능은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "돕는다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4
+          ],
+          "component": "object",
+          "chunkGloss": "지친 학생을"
+        }
+      ],
+      "translation": "인공지능은 지친 학생을 돕는다."
+    },
+    {
+      "id": "q71",
+      "sentence": "A chatbot talks with people kindly.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "A",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "chatbot",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "talks",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "with",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "people",
+          "pos": "noun"
+        },
+        {
+          "index": 6,
+          "text": "kindly.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "챗봇은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "대화한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "사람들과"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "친절하게"
+        }
+      ],
+      "translation": "챗봇은 사람들과 친절하게 대화한다."
+    },
+    {
+      "id": "q72",
+      "sentence": "Computers process huge amounts of data.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Computers",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "process",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "huge",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "amounts",
+          "pos": "noun"
+        },
+        {
+          "index": 5,
+          "text": "of",
+          "pos": "preposition"
+        },
+        {
+          "index": 6,
+          "text": "data.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "컴퓨터는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "처리한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "엄청난 양의 데이터를"
+        }
+      ],
+      "translation": "컴퓨터는 엄청난 양의 데이터를 처리한다."
+    },
+    {
+      "id": "q73",
+      "sentence": "AI sometimes makes simple mistakes.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "AI",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "sometimes",
+          "pos": "adverb"
+        },
+        {
+          "index": 3,
+          "text": "makes",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "simple",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "mistakes.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "인공지능은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "modifier",
+          "chunkGloss": "때때로"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "한다"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "간단한 실수를"
+        }
+      ],
+      "translation": "인공지능은 때때로 간단한 실수를 한다."
+    },
+    {
+      "id": "q74",
+      "sentence": "People should use AI wisely.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "People",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "should",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "use",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "AI",
+          "pos": "noun"
+        },
+        {
+          "index": 5,
+          "text": "wisely.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "사람들은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2,
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "사용해야 한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "object",
+          "chunkGloss": "인공지능을"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "현명하게"
+        }
+      ],
+      "translation": "사람들은 인공지능을 현명하게 사용해야 한다."
+    },
+    {
+      "id": "q75",
+      "sentence": "Smart speakers play our favorite songs.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Smart",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "speakers",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "play",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "our",
+          "pos": "pronoun"
+        },
+        {
+          "index": 5,
+          "text": "favorite",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "songs.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "스마트 스피커는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "재생한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "우리가 좋아하는 노래를"
+        }
+      ],
+      "translation": "스마트 스피커는 우리가 좋아하는 노래를 재생한다."
+    },
+    {
+      "id": "q76",
+      "sentence": "AI changes our future world.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "AI",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "changes",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "our",
+          "pos": "pronoun"
+        },
+        {
+          "index": 4,
+          "text": "future",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "world.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "인공지능은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "바꾼다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "우리의 미래 세계를"
+        }
+      ],
+      "translation": "인공지능은 우리의 미래 세계를 바꾼다."
+    },
+    {
+      "id": "q77",
+      "sentence": "Python is a popular programming language.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Python",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "is",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "a",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "popular",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "programming",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "language.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "파이썬은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "이다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "component": "complement",
+          "chunkGloss": "인기 있는 프로그래밍 언어"
+        }
+      ],
+      "translation": "파이썬은 인기 있는 프로그래밍 언어이다."
+    },
+    {
+      "id": "q78",
+      "sentence": "Beginners learn Python very easily.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Beginners",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "learn",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "Python",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "very",
+          "pos": "adverb"
+        },
+        {
+          "index": 5,
+          "text": "easily.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "초보자는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "배운다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "object",
+          "chunkGloss": "파이썬을"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "아주 쉽게"
+        }
+      ],
+      "translation": "초보자는 파이썬을 아주 쉽게 배운다."
+    },
+    {
+      "id": "q79",
+      "sentence": "Python uses simple clear words.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Python",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "uses",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "simple",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "clear",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "words.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "파이썬은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "사용한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "간단하고 명확한 단어를"
+        }
+      ],
+      "translation": "파이썬은 간단하고 명확한 단어를 사용한다."
+    },
+    {
+      "id": "q80",
+      "sentence": "A function returns a useful value.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "A",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "function",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "returns",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "a",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "useful",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "value.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "함수는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "반환한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "유용한 값을"
+        }
+      ],
+      "translation": "함수는 유용한 값을 반환한다."
+    },
+    {
+      "id": "q81",
+      "sentence": "The print command shows the text.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "print",
+          "pos": "adjective"
+        },
+        {
+          "index": 3,
+          "text": "command",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "shows",
+          "pos": "verb"
+        },
+        {
+          "index": 5,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "text.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2,
+            3
+          ],
+          "component": "subject",
+          "chunkGloss": "출력 명령은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "predicate",
+          "chunkGloss": "보여 준다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "글자를"
+        }
+      ],
+      "translation": "출력 명령은 글자를 보여 준다."
+    },
+    {
+      "id": "q82",
+      "sentence": "A list holds many items.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "A",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "list",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "holds",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "many",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "items.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "리스트는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "담는다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "많은 항목을"
+        }
+      ],
+      "translation": "리스트는 많은 항목을 담는다."
+    },
+    {
+      "id": "q83",
+      "sentence": "Programmers write Python every day.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Programmers",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "write",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "Python",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "every",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "day.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "프로그래머는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "작성한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "object",
+          "chunkGloss": "파이썬을"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "매일"
+        }
+      ],
+      "translation": "프로그래머는 매일 파이썬을 작성한다."
+    },
+    {
+      "id": "q84",
+      "sentence": "A loop counts the numbers quickly.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "A",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "loop",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "counts",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "numbers",
+          "pos": "noun"
+        },
+        {
+          "index": 6,
+          "text": "quickly.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "반복문은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "센다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "숫자를"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "빠르게"
+        }
+      ],
+      "translation": "반복문은 숫자를 빠르게 센다."
+    },
+    {
+      "id": "q85",
+      "sentence": "Python helps scientists with data.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Python",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "helps",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "scientists",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "with",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "data.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "파이썬은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "돕는다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "object",
+          "chunkGloss": "과학자를"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "데이터로"
+        }
+      ],
+      "translation": "파이썬은 데이터로 과학자를 돕는다."
+    },
+    {
+      "id": "q86",
+      "sentence": "Variables store useful information.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Variables",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "store",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "useful",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "information.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "변수는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "저장한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4
+          ],
+          "component": "object",
+          "chunkGloss": "유용한 정보를"
+        }
+      ],
+      "translation": "변수는 유용한 정보를 저장한다."
+    },
+    {
+      "id": "q87",
+      "sentence": "The program reads the input file.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "program",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "reads",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "input",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "file.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "프로그램은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "읽는다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "입력 파일을"
+        }
+      ],
+      "translation": "프로그램은 입력 파일을 읽는다."
+    },
+    {
+      "id": "q88",
+      "sentence": "An error stops the running program.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "An",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "error",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "stops",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "running",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "program.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "오류는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "멈춘다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "실행 중인 프로그램을"
+        }
+      ],
+      "translation": "오류는 실행 중인 프로그램을 멈춘다."
+    },
+    {
+      "id": "q89",
+      "sentence": "Coders share their Python projects online.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Coders",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "share",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "their",
+          "pos": "pronoun"
+        },
+        {
+          "index": 4,
+          "text": "Python",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "projects",
+          "pos": "noun"
+        },
+        {
+          "index": 6,
+          "text": "online.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "코더는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "공유한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "자기 파이썬 프로젝트를"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "온라인으로"
+        }
+      ],
+      "translation": "코더는 자기 파이썬 프로젝트를 온라인으로 공유한다."
+    },
+    {
+      "id": "q90",
+      "sentence": "Python runs on many computers.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Python",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "runs",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "on",
+          "pos": "preposition"
+        },
+        {
+          "index": 4,
+          "text": "many",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "computers.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "파이썬은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "실행된다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "많은 컴퓨터에서"
+        }
+      ],
+      "translation": "파이썬은 많은 컴퓨터에서 실행된다."
+    },
+    {
+      "id": "q91",
+      "sentence": "A condition checks the value first.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "A",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "condition",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "checks",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "value",
+          "pos": "noun"
+        },
+        {
+          "index": 6,
+          "text": "first.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "조건문은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "확인한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "값을"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "먼저"
+        }
+      ],
+      "translation": "조건문은 먼저 값을 확인한다."
+    },
+    {
+      "id": "q92",
+      "sentence": "Libraries add powerful new tools.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Libraries",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "add",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "powerful",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "new",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "tools.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "라이브러리는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "더한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "강력한 새 도구를"
+        }
+      ],
+      "translation": "라이브러리는 강력한 새 도구를 더한다."
+    },
+    {
+      "id": "q93",
+      "sentence": "Computers solve hard problems fast.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Computers",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "solve",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "hard",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "problems",
+          "pos": "noun"
+        },
+        {
+          "index": 5,
+          "text": "fast.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "컴퓨터는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "푼다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4
+          ],
+          "component": "object",
+          "chunkGloss": "어려운 문제를"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "빠르게"
+        }
+      ],
+      "translation": "컴퓨터는 어려운 문제를 빠르게 푼다."
+    },
+    {
+      "id": "q94",
+      "sentence": "Good code runs without errors.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Good",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "code",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "runs",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "without",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "errors.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "좋은 코드는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "실행된다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "오류 없이"
+        }
+      ],
+      "translation": "좋은 코드는 오류 없이 실행된다."
+    },
+    {
+      "id": "q95",
+      "sentence": "Students build small games with code.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Students",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "build",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "small",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "games",
+          "pos": "noun"
+        },
+        {
+          "index": 5,
+          "text": "with",
+          "pos": "preposition"
+        },
+        {
+          "index": 6,
+          "text": "code.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "학생들은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "만든다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4
+          ],
+          "component": "object",
+          "chunkGloss": "작은 게임을"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "코드로"
+        }
+      ],
+      "translation": "학생들은 코드로 작은 게임을 만든다."
+    },
+    {
+      "id": "q96",
+      "sentence": "Technology changes our daily life.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Technology",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "changes",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "our",
+          "pos": "pronoun"
+        },
+        {
+          "index": 4,
+          "text": "daily",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "life.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "기술은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "바꾼다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "우리의 일상을"
+        }
+      ],
+      "translation": "기술은 우리의 일상을 바꾼다."
+    },
+    {
+      "id": "q97",
+      "sentence": "A keyboard sends letters to the screen.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "A",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "keyboard",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "sends",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "letters",
+          "pos": "noun"
+        },
+        {
+          "index": 5,
+          "text": "to",
+          "pos": "preposition"
+        },
+        {
+          "index": 6,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 7,
+          "text": "screen.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "키보드는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "보낸다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "object",
+          "chunkGloss": "글자를"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            5,
+            6,
+            7
+          ],
+          "component": "modifier",
+          "chunkGloss": "화면으로"
+        }
+      ],
+      "translation": "키보드는 화면으로 글자를 보낸다."
+    },
+    {
+      "id": "q98",
+      "sentence": "Programmers think about hard problems.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Programmers",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "think",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "about",
+          "pos": "preposition"
+        },
+        {
+          "index": 4,
+          "text": "hard",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "problems.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "프로그래머는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "생각한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "어려운 문제에 대해"
+        }
+      ],
+      "translation": "프로그래머는 어려운 문제에 대해 생각한다."
+    },
+    {
+      "id": "q99",
+      "sentence": "New apps appear on phones daily.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "New",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "apps",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "appear",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "on",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "phones",
+          "pos": "noun"
+        },
+        {
+          "index": 6,
+          "text": "daily.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "새 앱은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "나타난다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "휴대폰에"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "날마다"
+        }
+      ],
+      "translation": "새 앱은 날마다 휴대폰에 나타난다."
+    },
+    {
+      "id": "q100",
+      "sentence": "Curious kids learn coding happily.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Curious",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "kids",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "learn",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "coding",
+          "pos": "noun"
+        },
+        {
+          "index": 5,
+          "text": "happily.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "호기심 많은 아이들은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "배운다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "object",
+          "chunkGloss": "코딩을"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "즐겁게"
+        }
+      ],
+      "translation": "호기심 많은 아이들은 코딩을 즐겁게 배운다."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependencies
+node_modules
+
+# Build output
+dist
+dist-ssr
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.local
+
+# 비밀키·작업용 폴더 — 공개 저장소에 올리지 않는다 (openrouter_key.txt 등)
+ignore_this/
+.tmp/
+.agents/
+
+# 제3자 워크북 원문/정답 PDF — 저작권 보호. 데이터 작성용 참고 자료라 배포에 불필요.
+# (저장소에 포함하려면 이 줄을 지우면 된다)
+resource_docs/

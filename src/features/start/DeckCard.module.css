@@ -1,0 +1,79 @@
+/* deck-card — 따뜻한 signature 표면, rounded-md, padding lg (design.md Start Screen) */
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-sm);
+  width: 100%;
+  min-height: 168px;
+  padding: var(--space-lg);
+  border: 2px solid transparent;
+  border-radius: var(--rounded-md);
+  text-align: left;
+  cursor: pointer;
+  color: var(--ink);
+  /* 표면은 흰색/연회색 + signature만. 그라데이션 금지(design.md). */
+  transition: transform 120ms ease, box-shadow 120ms ease, border-color 120ms ease;
+}
+
+.card:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.card:active {
+  transform: translateY(1px);
+}
+
+/* 선택 상태: ink 외곽선으로 표시(틴트/브래킷 색 재사용 금지). */
+.selected {
+  border-color: var(--ink);
+  box-shadow: 0 1px 2px rgba(24, 29, 38, 0.16);
+}
+
+/* signature 표면 (docs/04 §2) */
+.peach {
+  background: var(--signature-peach);
+}
+.mint {
+  background: var(--signature-mint);
+}
+.yellow {
+  background: var(--signature-yellow);
+}
+
+.kicker {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: var(--rounded-full);
+  background: rgba(24, 29, 38, 0.12);
+  color: var(--ink);
+  letter-spacing: 0.16px;
+}
+
+.title {
+  margin: 0;
+  color: var(--ink);
+}
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-top: auto;
+}
+
+.count {
+  color: var(--body);
+}
+
+/* 최근 점수 배지 — ink 텍스트의 캔버스 알약(피드백 색 미사용) */
+.badge {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: var(--rounded-full);
+  background: var(--canvas);
+  color: var(--ink);
+  letter-spacing: 0.16px;
+}

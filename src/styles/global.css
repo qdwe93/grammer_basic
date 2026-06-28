@@ -1,0 +1,57 @@
+/**
+ * 전역 스타일 — 디자인 토큰 import + 폰트/타이포 기본값
+ * 출처: docs/04_디자인적용가이드.md §3 (타이포그래피), design.md Typography
+ */
+@import "../design/tokens.css";
+@import "./typography.css";
+
+/* 폰트 스택
+ * 라틴 = Inter Display(Haas 대체) / 한글 = Pretendard
+ * (실제 폰트 파일은 index.html에서 CDN으로 연결)
+ */
+:root {
+  --font-latin: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", sans-serif;
+  --font-korean: "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic",
+    "Noto Sans KR", sans-serif;
+  /* 영문+한글 혼용 라인: 라틴 우선 + 한글 fallback */
+  --font-base: var(--font-latin), var(--font-korean);
+
+  /* 타이포그래피 토큰 (size / weight / line-height) — 04 문서 §3 */
+  --type-display-xl: 500 48px / 1.1 var(--font-base);
+  --type-display-lg: 400 40px / 1.2 var(--font-base);
+  --type-display-md: 400 32px / 1.2 var(--font-base);
+  --type-sentence: 400 28px / 1.5 var(--font-base); /* 영어 퀴즈 문장 */
+  --type-title-lg: 400 24px / 1.35 var(--font-base);
+  --type-title-md: 400 20px / 1.5 var(--font-base);
+  --type-label-md: 500 16px / 1.4 var(--font-base);
+  --type-button: 500 16px / 1.4 var(--font-base);
+  --type-body-md: 400 14px / 1.25 var(--font-base);
+  --type-gloss: 500 14px / 1.4 var(--font-base); /* 해석(chunk) */
+  --type-translation: 400 16px / 1.6 var(--font-base); /* 해석(문장) */
+  --type-index: 500 12px / 1.2 var(--font-base); /* 단어 위 번호 */
+  --type-chip: 600 12px / 1.2 var(--font-base); /* 문장성분 칩·품사 태그 */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: var(--type-body-md);
+  color: var(--body);
+  background: var(--canvas);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 한글 line-height는 라틴보다 ~5% 느슨하게 (가독성) */
+:lang(ko) {
+  line-height: 1.6;
+}

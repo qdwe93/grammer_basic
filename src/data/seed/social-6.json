@@ -1,0 +1,6469 @@
+{
+  "id": "social-6",
+  "title": "사회 6학년 — 다양한 주제 100문장",
+  "language": "en",
+  "source": "seed",
+  "questions": [
+    {
+      "id": "q1",
+      "sentence": "People choose their leaders by voting.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "People",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "choose",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "their",
+          "pos": "pronoun"
+        },
+        {
+          "index": 4,
+          "text": "leaders",
+          "pos": "noun"
+        },
+        {
+          "index": 5,
+          "text": "by",
+          "pos": "preposition"
+        },
+        {
+          "index": 6,
+          "text": "voting.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "사람들은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "뽑는다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4
+          ],
+          "component": "object",
+          "chunkGloss": "자기 지도자를"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "투표로"
+        }
+      ],
+      "translation": "사람들은 투표로 자기 지도자를 뽑는다."
+    },
+    {
+      "id": "q2",
+      "sentence": "In a democracy, citizens have power.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "In",
+          "pos": "preposition"
+        },
+        {
+          "index": 2,
+          "text": "a",
+          "pos": "adjective"
+        },
+        {
+          "index": 3,
+          "text": "democracy,",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "citizens",
+          "pos": "noun"
+        },
+        {
+          "index": 5,
+          "text": "have",
+          "pos": "verb"
+        },
+        {
+          "index": 6,
+          "text": "power.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2,
+            3
+          ],
+          "component": "modifier",
+          "chunkGloss": "민주주의에서는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "subject",
+          "chunkGloss": "시민들은"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            5
+          ],
+          "component": "predicate",
+          "chunkGloss": "가진다"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "권력을"
+        }
+      ],
+      "translation": "민주주의에서는 시민들이 권력을 가진다."
+    },
+    {
+      "id": "q3",
+      "sentence": "The National Assembly makes new laws.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "National",
+          "pos": "adjective"
+        },
+        {
+          "index": 3,
+          "text": "Assembly",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "makes",
+          "pos": "verb"
+        },
+        {
+          "index": 5,
+          "text": "new",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "laws.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2,
+            3
+          ],
+          "component": "subject",
+          "chunkGloss": "국회는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "predicate",
+          "chunkGloss": "만든다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "새로운 법을"
+        }
+      ],
+      "translation": "국회는 새로운 법을 만든다."
+    },
+    {
+      "id": "q4",
+      "sentence": "The government serves all the people.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "government",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "serves",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "all",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "people.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "정부는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "섬긴다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "모든 국민을"
+        }
+      ],
+      "translation": "정부는 모든 국민을 섬긴다."
+    },
+    {
+      "id": "q5",
+      "sentence": "Courts protect our basic rights.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Courts",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "protect",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "our",
+          "pos": "pronoun"
+        },
+        {
+          "index": 4,
+          "text": "basic",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "rights.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "법원은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "보호한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "우리의 기본권을"
+        }
+      ],
+      "translation": "법원은 우리의 기본권을 보호한다."
+    },
+    {
+      "id": "q6",
+      "sentence": "Citizens vote in every election.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Citizens",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "vote",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "in",
+          "pos": "preposition"
+        },
+        {
+          "index": 4,
+          "text": "every",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "election.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "시민들은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "투표한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "모든 선거에서"
+        }
+      ],
+      "translation": "시민들은 모든 선거에서 투표한다."
+    },
+    {
+      "id": "q7",
+      "sentence": "A good leader listens to people.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "A",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "good",
+          "pos": "adjective"
+        },
+        {
+          "index": 3,
+          "text": "leader",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "listens",
+          "pos": "verb"
+        },
+        {
+          "index": 5,
+          "text": "to",
+          "pos": "preposition"
+        },
+        {
+          "index": 6,
+          "text": "people.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2,
+            3
+          ],
+          "component": "subject",
+          "chunkGloss": "좋은 지도자는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "predicate",
+          "chunkGloss": "귀 기울인다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "사람들에게"
+        }
+      ],
+      "translation": "좋은 지도자는 사람들에게 귀 기울인다."
+    },
+    {
+      "id": "q8",
+      "sentence": "The president leads the whole country.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "president",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "leads",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "whole",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "country.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "대통령은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "이끈다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "나라 전체를"
+        }
+      ],
+      "translation": "대통령은 나라 전체를 이끈다."
+    },
+    {
+      "id": "q9",
+      "sentence": "Laws keep our society safe.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Laws",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "keep",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "our",
+          "pos": "pronoun"
+        },
+        {
+          "index": 4,
+          "text": "society",
+          "pos": "noun"
+        },
+        {
+          "index": 5,
+          "text": "safe.",
+          "pos": "adjective"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "법은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "지킨다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4
+          ],
+          "component": "object",
+          "chunkGloss": "우리 사회를"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            5
+          ],
+          "component": "complement",
+          "chunkGloss": "안전하게"
+        }
+      ],
+      "translation": "법은 우리 사회를 안전하게 지킨다."
+    },
+    {
+      "id": "q10",
+      "sentence": "People can share their opinions freely.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "People",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "can",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "share",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "their",
+          "pos": "pronoun"
+        },
+        {
+          "index": 5,
+          "text": "opinions",
+          "pos": "noun"
+        },
+        {
+          "index": 6,
+          "text": "freely.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "사람들은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2,
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "나눌 수 있다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "자기 의견을"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "자유롭게"
+        }
+      ],
+      "translation": "사람들은 자기 의견을 자유롭게 나눌 수 있다."
+    },
+    {
+      "id": "q11",
+      "sentence": "The constitution protects human rights.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "constitution",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "protects",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "human",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "rights.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "헌법은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "보호한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "인권을"
+        }
+      ],
+      "translation": "헌법은 인권을 보호한다."
+    },
+    {
+      "id": "q12",
+      "sentence": "Every person has equal rights.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Every",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "person",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "has",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "equal",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "rights.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "모든 사람은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "가진다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "평등한 권리를"
+        }
+      ],
+      "translation": "모든 사람은 평등한 권리를 가진다."
+    },
+    {
+      "id": "q13",
+      "sentence": "Children also have important rights.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Children",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "also",
+          "pos": "adverb"
+        },
+        {
+          "index": 3,
+          "text": "have",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "important",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "rights.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "어린이도"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "modifier",
+          "chunkGloss": "또한"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "가진다"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "중요한 권리를"
+        }
+      ],
+      "translation": "어린이도 중요한 권리를 가진다."
+    },
+    {
+      "id": "q14",
+      "sentence": "We must respect other people.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "We",
+          "pos": "pronoun"
+        },
+        {
+          "index": 2,
+          "text": "must",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "respect",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "other",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "people.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "우리는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2,
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "존중해야 한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "다른 사람들을"
+        }
+      ],
+      "translation": "우리는 다른 사람들을 존중해야 한다."
+    },
+    {
+      "id": "q15",
+      "sentence": "Freedom is a precious value.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Freedom",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "is",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "a",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "precious",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "value.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "자유는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "이다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "complement",
+          "chunkGloss": "소중한 가치"
+        }
+      ],
+      "translation": "자유는 소중한 가치이다."
+    },
+    {
+      "id": "q16",
+      "sentence": "Families buy goods at the market.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Families",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "buy",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "goods",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "at",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "market.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "가계는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "산다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "object",
+          "chunkGloss": "상품을"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "시장에서"
+        }
+      ],
+      "translation": "가계는 시장에서 상품을 산다."
+    },
+    {
+      "id": "q17",
+      "sentence": "Companies produce many useful products.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Companies",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "produce",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "many",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "useful",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "products.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "기업은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "생산한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "많은 유용한 제품을"
+        }
+      ],
+      "translation": "기업은 많은 유용한 제품을 생산한다."
+    },
+    {
+      "id": "q18",
+      "sentence": "Workers earn money for their work.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Workers",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "earn",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "money",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "for",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "their",
+          "pos": "pronoun"
+        },
+        {
+          "index": 6,
+          "text": "work.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "노동자는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "번다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "object",
+          "chunkGloss": "돈을"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "자기 일에 대해"
+        }
+      ],
+      "translation": "노동자는 자기 일에 대해 돈을 번다."
+    },
+    {
+      "id": "q19",
+      "sentence": "Prices rise when demand grows.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Prices",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "rise",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "when",
+          "pos": "conjunction"
+        },
+        {
+          "index": 4,
+          "text": "demand",
+          "pos": "noun"
+        },
+        {
+          "index": 5,
+          "text": "grows.",
+          "pos": "verb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "가격은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "오른다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "수요가 늘면"
+        }
+      ],
+      "translation": "가격은 수요가 늘면 오른다."
+    },
+    {
+      "id": "q20",
+      "sentence": "People save money for the future.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "People",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "save",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "money",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "for",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "future.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "사람들은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "저축한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "object",
+          "chunkGloss": "돈을"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "미래를 위해"
+        }
+      ],
+      "translation": "사람들은 미래를 위해 돈을 저축한다."
+    },
+    {
+      "id": "q21",
+      "sentence": "Free competition lowers the prices.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Free",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "competition",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "lowers",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "prices.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "자유 경쟁은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "낮춘다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "가격을"
+        }
+      ],
+      "translation": "자유 경쟁은 가격을 낮춘다."
+    },
+    {
+      "id": "q22",
+      "sentence": "Our country trades with other nations.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Our",
+          "pos": "pronoun"
+        },
+        {
+          "index": 2,
+          "text": "country",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "trades",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "with",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "other",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "nations.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "우리나라는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "무역한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "다른 나라들과"
+        }
+      ],
+      "translation": "우리나라는 다른 나라들과 무역한다."
+    },
+    {
+      "id": "q23",
+      "sentence": "Korea exports cars and phones.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Korea",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "exports",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "cars",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "and",
+          "pos": "conjunction"
+        },
+        {
+          "index": 5,
+          "text": "phones.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "한국은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "수출한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "자동차와 휴대폰을"
+        }
+      ],
+      "translation": "한국은 자동차와 휴대폰을 수출한다."
+    },
+    {
+      "id": "q24",
+      "sentence": "We import oil from other countries.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "We",
+          "pos": "pronoun"
+        },
+        {
+          "index": 2,
+          "text": "import",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "oil",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "from",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "other",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "countries.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "우리는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "수입한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "object",
+          "chunkGloss": "석유를"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "다른 나라에서"
+        }
+      ],
+      "translation": "우리는 다른 나라에서 석유를 수입한다."
+    },
+    {
+      "id": "q25",
+      "sentence": "Banks keep our money safely.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Banks",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "keep",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "our",
+          "pos": "pronoun"
+        },
+        {
+          "index": 4,
+          "text": "money",
+          "pos": "noun"
+        },
+        {
+          "index": 5,
+          "text": "safely.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "은행은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "보관한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4
+          ],
+          "component": "object",
+          "chunkGloss": "우리의 돈을"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "안전하게"
+        }
+      ],
+      "translation": "은행은 우리의 돈을 안전하게 보관한다."
+    },
+    {
+      "id": "q26",
+      "sentence": "King Sejong created the Korean alphabet.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "King",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "Sejong",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "created",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "Korean",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "alphabet.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "세종대왕은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "만들었다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "한글을"
+        }
+      ],
+      "translation": "세종대왕은 한글을 만들었다."
+    },
+    {
+      "id": "q27",
+      "sentence": "Hangul helped many common people.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Hangul",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "helped",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "many",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "common",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "people.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "한글은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "도왔다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "많은 평범한 백성을"
+        }
+      ],
+      "translation": "한글은 많은 평범한 백성을 도왔다."
+    },
+    {
+      "id": "q28",
+      "sentence": "The Joseon Dynasty lasted long.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "Joseon",
+          "pos": "adjective"
+        },
+        {
+          "index": 3,
+          "text": "Dynasty",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "lasted",
+          "pos": "verb"
+        },
+        {
+          "index": 5,
+          "text": "long.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2,
+            3
+          ],
+          "component": "subject",
+          "chunkGloss": "조선 왕조는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "predicate",
+          "chunkGloss": "지속되었다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "오래"
+        }
+      ],
+      "translation": "조선 왕조는 오래 지속되었다."
+    },
+    {
+      "id": "q29",
+      "sentence": "Admiral Yi defended the Korean sea.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Admiral",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "Yi",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "defended",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "Korean",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "sea.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "이순신 장군은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "지켰다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "조선의 바다를"
+        }
+      ],
+      "translation": "이순신 장군은 조선의 바다를 지켰다."
+    },
+    {
+      "id": "q30",
+      "sentence": "Japan ruled Korea for many years.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Japan",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "ruled",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "Korea",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "for",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "many",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "years.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "일본은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "지배했다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "object",
+          "chunkGloss": "한국을"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "여러 해 동안"
+        }
+      ],
+      "translation": "일본은 여러 해 동안 한국을 지배했다."
+    },
+    {
+      "id": "q31",
+      "sentence": "Brave people fought for independence.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Brave",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "people",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "fought",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "for",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "independence.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "용감한 사람들은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "싸웠다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "독립을 위해"
+        }
+      ],
+      "translation": "용감한 사람들은 독립을 위해 싸웠다."
+    },
+    {
+      "id": "q32",
+      "sentence": "Korea became free in 1945.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Korea",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "became",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "free",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "in",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "1945.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "한국은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "되었다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "complement",
+          "chunkGloss": "자유롭게"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "1945년에"
+        }
+      ],
+      "translation": "한국은 1945년에 자유로워졌다."
+    },
+    {
+      "id": "q33",
+      "sentence": "The Korean War divided the country.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "Korean",
+          "pos": "adjective"
+        },
+        {
+          "index": 3,
+          "text": "War",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "divided",
+          "pos": "verb"
+        },
+        {
+          "index": 5,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "country.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2,
+            3
+          ],
+          "component": "subject",
+          "chunkGloss": "한국 전쟁은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "predicate",
+          "chunkGloss": "나누었다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "나라를"
+        }
+      ],
+      "translation": "한국 전쟁은 나라를 둘로 나누었다."
+    },
+    {
+      "id": "q34",
+      "sentence": "Citizens marched for democracy bravely.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Citizens",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "marched",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "for",
+          "pos": "preposition"
+        },
+        {
+          "index": 4,
+          "text": "democracy",
+          "pos": "noun"
+        },
+        {
+          "index": 5,
+          "text": "bravely.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "시민들은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "행진했다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4
+          ],
+          "component": "modifier",
+          "chunkGloss": "민주주의를 위해"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "용감하게"
+        }
+      ],
+      "translation": "시민들은 민주주의를 위해 용감하게 행진했다."
+    },
+    {
+      "id": "q35",
+      "sentence": "Old palaces tell our long history.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Old",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "palaces",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "tell",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "our",
+          "pos": "pronoun"
+        },
+        {
+          "index": 5,
+          "text": "long",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "history.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "오래된 궁궐은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "들려준다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "우리의 긴 역사를"
+        }
+      ],
+      "translation": "오래된 궁궐은 우리의 긴 역사를 들려준다."
+    },
+    {
+      "id": "q36",
+      "sentence": "The Earth has five great oceans.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "Earth",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "has",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "five",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "great",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "oceans.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "지구는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "가지고 있다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "다섯 큰 대양을"
+        }
+      ],
+      "translation": "지구는 다섯 개의 큰 대양을 가지고 있다."
+    },
+    {
+      "id": "q37",
+      "sentence": "Asia is the largest continent.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Asia",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "is",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "largest",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "continent.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "아시아는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "이다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "complement",
+          "chunkGloss": "가장 큰 대륙"
+        }
+      ],
+      "translation": "아시아는 가장 큰 대륙이다."
+    },
+    {
+      "id": "q38",
+      "sentence": "Deserts get very little rain.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Deserts",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "get",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "very",
+          "pos": "adverb"
+        },
+        {
+          "index": 4,
+          "text": "little",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "rain.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "사막은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "받는다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "아주 적은 비를"
+        }
+      ],
+      "translation": "사막은 아주 적은 비를 받는다."
+    },
+    {
+      "id": "q39",
+      "sentence": "Many people live near rivers.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Many",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "people",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "live",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "near",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "rivers.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "많은 사람들은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "산다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "강 근처에"
+        }
+      ],
+      "translation": "많은 사람들은 강 근처에 산다."
+    },
+    {
+      "id": "q40",
+      "sentence": "Mountains cover much of Korea.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Mountains",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "cover",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "much",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "of",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "Korea.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "산은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "덮는다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "한국의 많은 부분을"
+        }
+      ],
+      "translation": "산은 한국의 많은 부분을 덮는다."
+    },
+    {
+      "id": "q41",
+      "sentence": "The equator stays warm all year.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "equator",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "stays",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "warm",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "all",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "year.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "적도는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "유지한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "complement",
+          "chunkGloss": "따뜻하게"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "일 년 내내"
+        }
+      ],
+      "translation": "적도는 일 년 내내 따뜻하다."
+    },
+    {
+      "id": "q42",
+      "sentence": "Cold winds blow near the poles.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Cold",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "winds",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "blow",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "near",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "poles.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "찬 바람은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "분다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "극지방 근처에서"
+        }
+      ],
+      "translation": "찬 바람은 극지방 근처에서 분다."
+    },
+    {
+      "id": "q43",
+      "sentence": "Maps show the whole world.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Maps",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "show",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "whole",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "world.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "지도는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "보여 준다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "세계 전체를"
+        }
+      ],
+      "translation": "지도는 세계 전체를 보여 준다."
+    },
+    {
+      "id": "q44",
+      "sentence": "Rivers flow into the wide sea.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Rivers",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "flow",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "into",
+          "pos": "preposition"
+        },
+        {
+          "index": 4,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "wide",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "sea.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "강은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "흘러간다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "넓은 바다로"
+        }
+      ],
+      "translation": "강은 넓은 바다로 흘러간다."
+    },
+    {
+      "id": "q45",
+      "sentence": "Each country has its own flag.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Each",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "country",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "has",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "its",
+          "pos": "pronoun"
+        },
+        {
+          "index": 5,
+          "text": "own",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "flag.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "각 나라는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "가지고 있다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "자기 국기를"
+        }
+      ],
+      "translation": "각 나라는 자기 국기를 가지고 있다."
+    },
+    {
+      "id": "q46",
+      "sentence": "Different countries have different cultures.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Different",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "countries",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "have",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "different",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "cultures.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "여러 나라는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "가지고 있다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "서로 다른 문화를"
+        }
+      ],
+      "translation": "여러 나라는 서로 다른 문화를 가지고 있다."
+    },
+    {
+      "id": "q47",
+      "sentence": "People around the world eat rice.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "People",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "around",
+          "pos": "preposition"
+        },
+        {
+          "index": 3,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "world",
+          "pos": "noun"
+        },
+        {
+          "index": 5,
+          "text": "eat",
+          "pos": "verb"
+        },
+        {
+          "index": 6,
+          "text": "rice.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "사람들은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2,
+            3,
+            4
+          ],
+          "component": "modifier",
+          "chunkGloss": "전 세계의"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            5
+          ],
+          "component": "predicate",
+          "chunkGloss": "먹는다"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "쌀을"
+        }
+      ],
+      "translation": "전 세계 사람들은 쌀을 먹는다."
+    },
+    {
+      "id": "q48",
+      "sentence": "We respect other cultures and customs.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "We",
+          "pos": "pronoun"
+        },
+        {
+          "index": 2,
+          "text": "respect",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "other",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "cultures",
+          "pos": "noun"
+        },
+        {
+          "index": 5,
+          "text": "and",
+          "pos": "conjunction"
+        },
+        {
+          "index": 6,
+          "text": "customs.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "우리는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "존중한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "다른 문화와 관습을"
+        }
+      ],
+      "translation": "우리는 다른 문화와 관습을 존중한다."
+    },
+    {
+      "id": "q49",
+      "sentence": "Festivals bring people together happily.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Festivals",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "bring",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "people",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "together",
+          "pos": "adverb"
+        },
+        {
+          "index": 5,
+          "text": "happily.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "축제는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "모은다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "object",
+          "chunkGloss": "사람들을"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "함께 즐겁게"
+        }
+      ],
+      "translation": "축제는 사람들을 함께 즐겁게 모은다."
+    },
+    {
+      "id": "q50",
+      "sentence": "Travelers learn about new places.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Travelers",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "learn",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "about",
+          "pos": "preposition"
+        },
+        {
+          "index": 4,
+          "text": "new",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "places.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "여행자는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "배운다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "새로운 곳에 대해"
+        }
+      ],
+      "translation": "여행자는 새로운 곳에 대해 배운다."
+    },
+    {
+      "id": "q51",
+      "sentence": "Korean food is popular worldwide.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Korean",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "food",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "is",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "popular",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "worldwide.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "한국 음식은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "이다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "complement",
+          "chunkGloss": "인기 있는"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "전 세계에서"
+        }
+      ],
+      "translation": "한국 음식은 전 세계에서 인기 있다."
+    },
+    {
+      "id": "q52",
+      "sentence": "Languages connect people from far places.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Languages",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "connect",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "people",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "from",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "far",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "places.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "언어는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "이어 준다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "object",
+          "chunkGloss": "사람들을"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "먼 곳에서 온"
+        }
+      ],
+      "translation": "언어는 먼 곳의 사람들을 이어 준다."
+    },
+    {
+      "id": "q53",
+      "sentence": "The United Nations works for peace.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "United",
+          "pos": "adjective"
+        },
+        {
+          "index": 3,
+          "text": "Nations",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "works",
+          "pos": "verb"
+        },
+        {
+          "index": 5,
+          "text": "for",
+          "pos": "preposition"
+        },
+        {
+          "index": 6,
+          "text": "peace.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2,
+            3
+          ],
+          "component": "subject",
+          "chunkGloss": "국제연합은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "predicate",
+          "chunkGloss": "노력한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "평화를 위해"
+        }
+      ],
+      "translation": "국제연합은 평화를 위해 노력한다."
+    },
+    {
+      "id": "q54",
+      "sentence": "Many nations help poor children.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Many",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "nations",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "help",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "poor",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "children.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "많은 나라들은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "돕는다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "가난한 아이들을"
+        }
+      ],
+      "translation": "많은 나라들은 가난한 아이들을 돕는다."
+    },
+    {
+      "id": "q55",
+      "sentence": "Volunteers bring food to refugees.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Volunteers",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "bring",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "food",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "to",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "refugees.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "자원봉사자는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "전한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "object",
+          "chunkGloss": "음식을"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "난민에게"
+        }
+      ],
+      "translation": "자원봉사자는 난민에게 음식을 전한다."
+    },
+    {
+      "id": "q56",
+      "sentence": "Countries should solve problems together.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Countries",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "should",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "solve",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "problems",
+          "pos": "noun"
+        },
+        {
+          "index": 5,
+          "text": "together.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "나라들은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2,
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "해결해야 한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "object",
+          "chunkGloss": "문제를"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "함께"
+        }
+      ],
+      "translation": "나라들은 문제를 함께 해결해야 한다."
+    },
+    {
+      "id": "q57",
+      "sentence": "War hurts many innocent families.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "War",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "hurts",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "many",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "innocent",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "families.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "전쟁은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "해친다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "많은 무고한 가족을"
+        }
+      ],
+      "translation": "전쟁은 많은 무고한 가족을 해친다."
+    },
+    {
+      "id": "q58",
+      "sentence": "Peace helps every country.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Peace",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "helps",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "every",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "country.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "평화는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "돕는다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4
+          ],
+          "component": "object",
+          "chunkGloss": "모든 나라를"
+        }
+      ],
+      "translation": "평화는 모든 나라를 돕는다."
+    },
+    {
+      "id": "q59",
+      "sentence": "Leaders meet and discuss world problems.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Leaders",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "meet",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "and",
+          "pos": "conjunction"
+        },
+        {
+          "index": 4,
+          "text": "discuss",
+          "pos": "verb"
+        },
+        {
+          "index": 5,
+          "text": "world",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "problems.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "지도자들은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2,
+            3,
+            4
+          ],
+          "component": "predicate",
+          "chunkGloss": "만나서 논의한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "세계 문제를"
+        }
+      ],
+      "translation": "지도자들은 만나서 세계 문제를 논의한다."
+    },
+    {
+      "id": "q60",
+      "sentence": "We should protect our clean Earth.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "We",
+          "pos": "pronoun"
+        },
+        {
+          "index": 2,
+          "text": "should",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "protect",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "our",
+          "pos": "pronoun"
+        },
+        {
+          "index": 5,
+          "text": "clean",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "Earth.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "우리는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2,
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "보호해야 한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "깨끗한 지구를"
+        }
+      ],
+      "translation": "우리는 깨끗한 지구를 보호해야 한다."
+    },
+    {
+      "id": "q61",
+      "sentence": "Pollution harms the ocean badly.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Pollution",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "harms",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "ocean",
+          "pos": "noun"
+        },
+        {
+          "index": 5,
+          "text": "badly.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "오염은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "해친다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4
+          ],
+          "component": "object",
+          "chunkGloss": "바다를"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "심하게"
+        }
+      ],
+      "translation": "오염은 바다를 심하게 해친다."
+    },
+    {
+      "id": "q62",
+      "sentence": "People recycle paper and plastic.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "People",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "recycle",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "paper",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "and",
+          "pos": "conjunction"
+        },
+        {
+          "index": 5,
+          "text": "plastic.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "사람들은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "재활용한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "종이와 플라스틱을"
+        }
+      ],
+      "translation": "사람들은 종이와 플라스틱을 재활용한다."
+    },
+    {
+      "id": "q63",
+      "sentence": "Trees clean our dirty air.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Trees",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "clean",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "our",
+          "pos": "pronoun"
+        },
+        {
+          "index": 4,
+          "text": "dirty",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "air.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "나무는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "정화한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "우리의 더러운 공기를"
+        }
+      ],
+      "translation": "나무는 우리의 더러운 공기를 정화한다."
+    },
+    {
+      "id": "q64",
+      "sentence": "We save water every single day.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "We",
+          "pos": "pronoun"
+        },
+        {
+          "index": 2,
+          "text": "save",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "water",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "every",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "single",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "day.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "우리는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "아낀다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "object",
+          "chunkGloss": "물을"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "매일"
+        }
+      ],
+      "translation": "우리는 매일 물을 아낀다."
+    },
+    {
+      "id": "q65",
+      "sentence": "Clean energy protects our planet.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Clean",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "energy",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "protects",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "our",
+          "pos": "pronoun"
+        },
+        {
+          "index": 5,
+          "text": "planet.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "깨끗한 에너지는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "지킨다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "우리 행성을"
+        }
+      ],
+      "translation": "깨끗한 에너지는 우리 행성을 지킨다."
+    },
+    {
+      "id": "q66",
+      "sentence": "Too much trash hurts nature.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Too",
+          "pos": "adverb"
+        },
+        {
+          "index": 2,
+          "text": "much",
+          "pos": "adjective"
+        },
+        {
+          "index": 3,
+          "text": "trash",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "hurts",
+          "pos": "verb"
+        },
+        {
+          "index": 5,
+          "text": "nature.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2,
+            3
+          ],
+          "component": "subject",
+          "chunkGloss": "너무 많은 쓰레기는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "predicate",
+          "chunkGloss": "해친다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "자연을"
+        }
+      ],
+      "translation": "너무 많은 쓰레기는 자연을 해친다."
+    },
+    {
+      "id": "q67",
+      "sentence": "Wind farms make green power.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Wind",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "farms",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "make",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "green",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "power.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "풍력 발전 단지는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "만든다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "친환경 전기를"
+        }
+      ],
+      "translation": "풍력 발전 단지는 친환경 전기를 만든다."
+    },
+    {
+      "id": "q68",
+      "sentence": "The city builds new public parks.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "city",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "builds",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "new",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "public",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "parks.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "도시는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "짓는다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "새 공원을"
+        }
+      ],
+      "translation": "도시는 새 공원을 짓는다."
+    },
+    {
+      "id": "q69",
+      "sentence": "Firefighters keep our town safe.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Firefighters",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "keep",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "our",
+          "pos": "pronoun"
+        },
+        {
+          "index": 4,
+          "text": "town",
+          "pos": "noun"
+        },
+        {
+          "index": 5,
+          "text": "safe.",
+          "pos": "adjective"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "소방관은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "지킨다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4
+          ],
+          "component": "object",
+          "chunkGloss": "우리 마을을"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            5
+          ],
+          "component": "complement",
+          "chunkGloss": "안전하게"
+        }
+      ],
+      "translation": "소방관은 우리 마을을 안전하게 지킨다."
+    },
+    {
+      "id": "q70",
+      "sentence": "Public offices help local people.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Public",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "offices",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "help",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "local",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "people.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "공공기관은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "돕는다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "지역 주민을"
+        }
+      ],
+      "translation": "공공기관은 지역 주민을 돕는다."
+    },
+    {
+      "id": "q71",
+      "sentence": "Taxes pay for public services.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Taxes",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "pay",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "for",
+          "pos": "preposition"
+        },
+        {
+          "index": 4,
+          "text": "public",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "services.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "세금은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "쓰인다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "공공 서비스를 위해"
+        }
+      ],
+      "translation": "세금은 공공 서비스를 위해 쓰인다."
+    },
+    {
+      "id": "q72",
+      "sentence": "Citizens follow the traffic rules.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Citizens",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "follow",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "traffic",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "rules.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "시민들은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "지킨다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "교통 규칙을"
+        }
+      ],
+      "translation": "시민들은 교통 규칙을 지킨다."
+    },
+    {
+      "id": "q73",
+      "sentence": "The library lends free books.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "library",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "lends",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "free",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "books.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "도서관은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "빌려준다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "무료 책을"
+        }
+      ],
+      "translation": "도서관은 무료로 책을 빌려준다."
+    },
+    {
+      "id": "q74",
+      "sentence": "Police officers protect the people.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Police",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "officers",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "protect",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "people.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "경찰관은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "보호한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "사람들을"
+        }
+      ],
+      "translation": "경찰관은 사람들을 보호한다."
+    },
+    {
+      "id": "q75",
+      "sentence": "Neighbors share food with each other.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Neighbors",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "share",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "food",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "with",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "each",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "other.",
+          "pos": "pronoun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "이웃은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "나눈다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "object",
+          "chunkGloss": "음식을"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "서로"
+        }
+      ],
+      "translation": "이웃은 서로 음식을 나눈다."
+    },
+    {
+      "id": "q76",
+      "sentence": "Every adult can vote freely.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Every",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "adult",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "can",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "vote",
+          "pos": "verb"
+        },
+        {
+          "index": 5,
+          "text": "freely.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "모든 성인은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3,
+            4
+          ],
+          "component": "predicate",
+          "chunkGloss": "투표할 수 있다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "자유롭게"
+        }
+      ],
+      "translation": "모든 성인은 자유롭게 투표할 수 있다."
+    },
+    {
+      "id": "q77",
+      "sentence": "Newspapers share important daily news.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Newspapers",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "share",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "important",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "daily",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "news.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "신문은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "전한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "중요한 매일의 소식을"
+        }
+      ],
+      "translation": "신문은 매일 중요한 소식을 전한다."
+    },
+    {
+      "id": "q78",
+      "sentence": "People join many local groups.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "People",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "join",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "many",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "local",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "groups.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "사람들은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "참여한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "여러 지역 모임에"
+        }
+      ],
+      "translation": "사람들은 여러 지역 모임에 참여한다."
+    },
+    {
+      "id": "q79",
+      "sentence": "We discuss problems with our neighbors.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "We",
+          "pos": "pronoun"
+        },
+        {
+          "index": 2,
+          "text": "discuss",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "problems",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "with",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "our",
+          "pos": "pronoun"
+        },
+        {
+          "index": 6,
+          "text": "neighbors.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "우리는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "논의한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "object",
+          "chunkGloss": "문제를"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "이웃과 함께"
+        }
+      ],
+      "translation": "우리는 이웃과 함께 문제를 논의한다."
+    },
+    {
+      "id": "q80",
+      "sentence": "A vote shows the people's will.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "A",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "vote",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "shows",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "people's",
+          "pos": "noun"
+        },
+        {
+          "index": 6,
+          "text": "will.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "투표는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "보여 준다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "국민의 뜻을"
+        }
+      ],
+      "translation": "투표는 국민의 뜻을 보여 준다."
+    },
+    {
+      "id": "q81",
+      "sentence": "Cities grow very fast today.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Cities",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "grow",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "very",
+          "pos": "adverb"
+        },
+        {
+          "index": 4,
+          "text": "fast",
+          "pos": "adverb"
+        },
+        {
+          "index": 5,
+          "text": "today.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "도시는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "성장한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4
+          ],
+          "component": "modifier",
+          "chunkGloss": "매우 빠르게"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "오늘날"
+        }
+      ],
+      "translation": "도시는 오늘날 매우 빠르게 성장한다."
+    },
+    {
+      "id": "q82",
+      "sentence": "Many old people live alone now.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Many",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "old",
+          "pos": "adjective"
+        },
+        {
+          "index": 3,
+          "text": "people",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "live",
+          "pos": "verb"
+        },
+        {
+          "index": 5,
+          "text": "alone",
+          "pos": "adverb"
+        },
+        {
+          "index": 6,
+          "text": "now.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2,
+            3
+          ],
+          "component": "subject",
+          "chunkGloss": "많은 노인들은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "predicate",
+          "chunkGloss": "산다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "혼자"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "이제"
+        }
+      ],
+      "translation": "많은 노인들은 이제 혼자 산다."
+    },
+    {
+      "id": "q83",
+      "sentence": "The internet connects distant people.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "internet",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "connects",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "distant",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "people.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "인터넷은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "연결한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "멀리 있는 사람들을"
+        }
+      ],
+      "translation": "인터넷은 멀리 있는 사람들을 연결한다."
+    },
+    {
+      "id": "q84",
+      "sentence": "Smartphones changed our daily lives.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Smartphones",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "changed",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "our",
+          "pos": "pronoun"
+        },
+        {
+          "index": 4,
+          "text": "daily",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "lives.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "스마트폰은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "바꾸었다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "우리의 일상을"
+        }
+      ],
+      "translation": "스마트폰은 우리의 일상을 바꾸었다."
+    },
+    {
+      "id": "q85",
+      "sentence": "Robots help workers in factories.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Robots",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "help",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "workers",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "in",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "factories.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "로봇은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "돕는다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "object",
+          "chunkGloss": "노동자를"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "공장에서"
+        }
+      ],
+      "translation": "로봇은 공장에서 노동자를 돕는다."
+    },
+    {
+      "id": "q86",
+      "sentence": "New jobs appear every year.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "New",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "jobs",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "appear",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "every",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "year.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "새로운 직업은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "생겨난다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "해마다"
+        }
+      ],
+      "translation": "새로운 직업은 해마다 생겨난다."
+    },
+    {
+      "id": "q87",
+      "sentence": "Families become smaller these days.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Families",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "become",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "smaller",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "these",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "days.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "가족은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "된다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "complement",
+          "chunkGloss": "더 작아"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "요즘"
+        }
+      ],
+      "translation": "요즘 가족은 더 작아진다."
+    },
+    {
+      "id": "q88",
+      "sentence": "Citizens have rights and duties.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Citizens",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "have",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "rights",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "and",
+          "pos": "conjunction"
+        },
+        {
+          "index": 5,
+          "text": "duties.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "시민은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "가진다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "권리와 의무를"
+        }
+      ],
+      "translation": "시민은 권리와 의무를 가진다."
+    },
+    {
+      "id": "q89",
+      "sentence": "We must obey the country's laws.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "We",
+          "pos": "pronoun"
+        },
+        {
+          "index": 2,
+          "text": "must",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "obey",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "country's",
+          "pos": "noun"
+        },
+        {
+          "index": 6,
+          "text": "laws.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "우리는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2,
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "따라야 한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "나라의 법을"
+        }
+      ],
+      "translation": "우리는 나라의 법을 따라야 한다."
+    },
+    {
+      "id": "q90",
+      "sentence": "Children go to school by law.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Children",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "go",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "to",
+          "pos": "preposition"
+        },
+        {
+          "index": 4,
+          "text": "school",
+          "pos": "noun"
+        },
+        {
+          "index": 5,
+          "text": "by",
+          "pos": "preposition"
+        },
+        {
+          "index": 6,
+          "text": "law.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "어린이는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "간다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4
+          ],
+          "component": "modifier",
+          "chunkGloss": "학교에"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            5,
+            6
+          ],
+          "component": "modifier",
+          "chunkGloss": "법에 따라"
+        }
+      ],
+      "translation": "어린이는 법에 따라 학교에 간다."
+    },
+    {
+      "id": "q91",
+      "sentence": "Adults pay their taxes honestly.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Adults",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "pay",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "their",
+          "pos": "pronoun"
+        },
+        {
+          "index": 4,
+          "text": "taxes",
+          "pos": "noun"
+        },
+        {
+          "index": 5,
+          "text": "honestly.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "어른들은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "낸다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4
+          ],
+          "component": "object",
+          "chunkGloss": "세금을"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "정직하게"
+        }
+      ],
+      "translation": "어른들은 세금을 정직하게 낸다."
+    },
+    {
+      "id": "q92",
+      "sentence": "The law treats everyone equally.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "The",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "law",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "treats",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "everyone",
+          "pos": "pronoun"
+        },
+        {
+          "index": 5,
+          "text": "equally.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "법은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "대한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4
+          ],
+          "component": "object",
+          "chunkGloss": "모든 사람을"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "평등하게"
+        }
+      ],
+      "translation": "법은 모든 사람을 평등하게 대한다."
+    },
+    {
+      "id": "q93",
+      "sentence": "Wise shoppers compare the prices.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Wise",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "shoppers",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "compare",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "the",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "prices.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "현명한 소비자는"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "비교한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "가격을"
+        }
+      ],
+      "translation": "현명한 소비자는 가격을 비교한다."
+    },
+    {
+      "id": "q94",
+      "sentence": "People spend money on food.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "People",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "spend",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "money",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "on",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "food.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "사람들은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "쓴다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "object",
+          "chunkGloss": "돈을"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "음식에"
+        }
+      ],
+      "translation": "사람들은 음식에 돈을 쓴다."
+    },
+    {
+      "id": "q95",
+      "sentence": "A budget plans our monthly spending.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "A",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "budget",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "plans",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "our",
+          "pos": "pronoun"
+        },
+        {
+          "index": 5,
+          "text": "monthly",
+          "pos": "adjective"
+        },
+        {
+          "index": 6,
+          "text": "spending.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "예산은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "계획한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5,
+            6
+          ],
+          "component": "object",
+          "chunkGloss": "우리의 월 지출을"
+        }
+      ],
+      "translation": "예산은 우리의 월 지출을 계획한다."
+    },
+    {
+      "id": "q96",
+      "sentence": "Markets sell fresh fruit daily.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Markets",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "sell",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "fresh",
+          "pos": "adjective"
+        },
+        {
+          "index": 4,
+          "text": "fruit",
+          "pos": "noun"
+        },
+        {
+          "index": 5,
+          "text": "daily.",
+          "pos": "adverb"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "시장은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "판다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4
+          ],
+          "component": "object",
+          "chunkGloss": "신선한 과일을"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "날마다"
+        }
+      ],
+      "translation": "시장은 날마다 신선한 과일을 판다."
+    },
+    {
+      "id": "q97",
+      "sentence": "Banks lend money to businesses.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Banks",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "lend",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "money",
+          "pos": "noun"
+        },
+        {
+          "index": 4,
+          "text": "to",
+          "pos": "preposition"
+        },
+        {
+          "index": 5,
+          "text": "businesses.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "은행은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "빌려준다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "object",
+          "chunkGloss": "돈을"
+        },
+        {
+          "id": "p4",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "modifier",
+          "chunkGloss": "기업에"
+        }
+      ],
+      "translation": "은행은 기업에 돈을 빌려준다."
+    },
+    {
+      "id": "q98",
+      "sentence": "Many tourists visit old temples.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Many",
+          "pos": "adjective"
+        },
+        {
+          "index": 2,
+          "text": "tourists",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "visit",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "old",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "temples.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "많은 관광객은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "방문한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "오래된 절을"
+        }
+      ],
+      "translation": "많은 관광객은 오래된 절을 방문한다."
+    },
+    {
+      "id": "q99",
+      "sentence": "Our ancestors built strong castles.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Our",
+          "pos": "pronoun"
+        },
+        {
+          "index": 2,
+          "text": "ancestors",
+          "pos": "noun"
+        },
+        {
+          "index": 3,
+          "text": "built",
+          "pos": "verb"
+        },
+        {
+          "index": 4,
+          "text": "strong",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "castles.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1,
+            2
+          ],
+          "component": "subject",
+          "chunkGloss": "우리 조상은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            3
+          ],
+          "component": "predicate",
+          "chunkGloss": "지었다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "튼튼한 성을"
+        }
+      ],
+      "translation": "우리 조상은 튼튼한 성을 지었다."
+    },
+    {
+      "id": "q100",
+      "sentence": "Museums keep our cultural treasures.",
+      "tokens": [
+        {
+          "index": 1,
+          "text": "Museums",
+          "pos": "noun"
+        },
+        {
+          "index": 2,
+          "text": "keep",
+          "pos": "verb"
+        },
+        {
+          "index": 3,
+          "text": "our",
+          "pos": "pronoun"
+        },
+        {
+          "index": 4,
+          "text": "cultural",
+          "pos": "adjective"
+        },
+        {
+          "index": 5,
+          "text": "treasures.",
+          "pos": "noun"
+        }
+      ],
+      "phrases": [
+        {
+          "id": "p1",
+          "tokenIndexes": [
+            1
+          ],
+          "component": "subject",
+          "chunkGloss": "박물관은"
+        },
+        {
+          "id": "p2",
+          "tokenIndexes": [
+            2
+          ],
+          "component": "predicate",
+          "chunkGloss": "보관한다"
+        },
+        {
+          "id": "p3",
+          "tokenIndexes": [
+            3,
+            4,
+            5
+          ],
+          "component": "object",
+          "chunkGloss": "우리의 문화재를"
+        }
+      ],
+      "translation": "박물관은 우리의 문화재를 보관한다."
+    }
+  ]
+}

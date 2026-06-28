@@ -1,0 +1,39 @@
+.token {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-xxs); /* 단어와 번호/브래킷 자리 간격 (design.md: 4px) */
+}
+
+.index {
+  color: var(--muted); /* 번호는 muted (design.md index) */
+}
+
+.word {
+  color: var(--ink); /* 무채색 — 색은 공개(reveal) 시에만 */
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  border-radius: var(--rounded-sm);
+  padding: 0 var(--space-xxs);
+  transition: background-color 200ms ease, color 200ms ease;
+}
+
+.wordWrong {
+  color: var(--error);
+  background: var(--error-soft);
+}
+
+.wordRevealed {
+  color: var(--word-ink);
+  background: var(--word-bg);
+}
+
+.wasWrong {
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  color: var(--was-wrong);
+  font: var(--type-chip);
+  line-height: 1;
+}

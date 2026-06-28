@@ -1,0 +1,41 @@
+/* footer — flat, 캔버스, hairline 상단선 */
+.footer {
+  background: var(--canvas);
+  border-top: 1px solid var(--hairline);
+}
+
+.inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-sm);
+  width: min(100%, 1080px);
+  margin: 0 auto;
+  padding: var(--space-lg);
+}
+
+.meta {
+  color: var(--muted);
+}
+
+/* text-link — link 색, 기본 밑줄 없음 */
+.link {
+  border: none;
+  background: transparent;
+  color: var(--link);
+  cursor: pointer;
+  padding: var(--space-xxs) var(--space-xs);
+  border-radius: var(--rounded-sm);
+  min-height: 44px;
+}
+.link:hover {
+  text-decoration: underline;
+}
+.link:active {
+  color: var(--link-active);
+}
+.link:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}

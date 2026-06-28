@@ -1,0 +1,18 @@
+.panel {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.sentence {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: var(--space-lg) var(--space-md);
+}
+
+@media (max-width: 767px) {
+  .sentence {
+    gap: var(--space-lg) var(--space-sm);
+  }
+}

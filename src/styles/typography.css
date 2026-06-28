@@ -1,0 +1,19 @@
+/**
+ * 타이포그래피 유틸 클래스
+ * 출처: docs/04_디자인적용가이드.md §3, design.md Typography
+ * font 토큰은 global.css의 --type-* 변수를 사용. letter-spacing은 토큰별로 명시.
+ * 규칙: 디스플레이에 700 금지(토큰은 400/500만). 강조는 크기·색으로.
+ */
+.t-display-xl  { font: var(--type-display-xl);  letter-spacing: 0; }     /* 48/500 — 결과 점수 */
+.t-display-lg  { font: var(--type-display-lg);  letter-spacing: 0; }     /* 40/400 — 화면 타이틀 */
+.t-display-md  { font: var(--type-display-md);  letter-spacing: 0; }     /* 32/400 — 카드 헤드라인 */
+.t-sentence    { font: var(--type-sentence);    letter-spacing: 0; }     /* 28/400 — 영어 퀴즈 문장 */
+.t-title-lg    { font: var(--type-title-lg);    letter-spacing: 0.12px; }/* 24/400 — 서브섹션 */
+.t-title-md    { font: var(--type-title-md);    letter-spacing: 0; }     /* 20/400 — 카드/모달 타이틀 */
+.t-label-md    { font: var(--type-label-md);    letter-spacing: 0; }     /* 16/500 — 선택기/범례 라벨 */
+.t-button      { font: var(--type-button);      letter-spacing: 0; }     /* 16/500 — CTA 라벨 */
+.t-body-md     { font: var(--type-body-md);     letter-spacing: 0; }     /* 14/400 — 안내 문구 */
+.t-gloss       { font: var(--type-gloss);       letter-spacing: 0; }     /* 14/500 — 해석(chunk) */
+.t-translation { font: var(--type-translation); letter-spacing: 0; }     /* 16/400 — 해석(문장) */
+.t-index       { font: var(--type-index);       letter-spacing: 0.16px; }/* 12/500 — 단어 위 번호 */
+.t-chip        { font: var(--type-chip);        letter-spacing: 0.16px; }/* 12/600 — 칩/태그 */

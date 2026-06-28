@@ -1,0 +1,57 @@
+/* start-hero — 흰 캔버스, 카드/그라데이션 없음. 최대 1080px 중앙(설정·결과와 동일). */
+.hero {
+  width: min(100%, 1080px);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xxl);
+  padding: var(--space-xxl) 0;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  max-width: 720px;
+}
+
+.intro h1 {
+  margin: 0;
+  color: var(--ink);
+}
+
+.lead {
+  margin: 0;
+  color: var(--body);
+}
+
+/* 덱 카드 그리드: 모바일 1열 → 태블릿/데스크톱 자동 채움(최소 280px). */
+.decks {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-lg);
+}
+
+@media (min-width: 768px) {
+  .decks {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+}
+
+.actions {
+  display: flex;
+}
+
+/* 모바일: 시작 버튼 전체폭(터치 타깃). */
+@media (max-width: 767px) {
+  .hero {
+    gap: var(--space-xl);
+    padding: var(--space-xl) 0;
+  }
+  .actions {
+    width: 100%;
+  }
+  .actions > * {
+    width: 100%;
+  }
+}

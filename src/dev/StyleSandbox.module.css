@@ -1,0 +1,69 @@
+/* 임시 스타일 확인용 샌드박스 레이아웃 (개발 전용) */
+.page {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: var(--space-xxl) var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-section);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.sectionHead {
+  color: var(--ink);
+  margin: 0;
+}
+
+.typeList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.typeRow {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  align-items: baseline;
+  gap: var(--space-lg);
+  padding-bottom: var(--space-sm);
+  border-bottom: 1px solid var(--hairline);
+}
+
+.typeName {
+  color: var(--muted);
+}
+
+.typeSample {
+  color: var(--ink);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+.rowLabel {
+  color: var(--muted);
+  width: 100%;
+}
+
+/* button-secondary-on-dark 확인용 다크 카드 */
+.darkCard {
+  background: var(--surface-dark);
+  border-radius: var(--rounded-lg);
+  padding: var(--space-xl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+.darkCardText {
+  color: var(--on-primary);
+  margin: 0;
+}

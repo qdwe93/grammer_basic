@@ -1,0 +1,113 @@
+{
+  "id": "town-mouse",
+  "title": "The Town Mouse and the Country Mouse",
+  "language": "en",
+  "source": "seed",
+  "questions": [
+    {
+      "id": "q1",
+      "sentence": "A country mouse lived in a small hole near a farm.",
+      "tokens": [
+        { "index": 1,  "text": "A",       "pos": "adjective" },
+        { "index": 2,  "text": "country", "pos": "adjective" },
+        { "index": 3,  "text": "mouse",   "pos": "noun" },
+        { "index": 4,  "text": "lived",   "pos": "verb" },
+        { "index": 5,  "text": "in",      "pos": "preposition" },
+        { "index": 6,  "text": "a",       "pos": "adjective" },
+        { "index": 7,  "text": "small",   "pos": "adjective" },
+        { "index": 8,  "text": "hole",    "pos": "noun" },
+        { "index": 9,  "text": "near",    "pos": "preposition" },
+        { "index": 10, "text": "a",       "pos": "adjective" },
+        { "index": 11, "text": "farm.",   "pos": "noun" }
+      ],
+      "phrases": [
+        { "id": "p1", "tokenIndexes": [1, 2, 3],    "component": "subject",   "chunkGloss": "시골 쥐 한 마리가" },
+        { "id": "p2", "tokenIndexes": [4],          "component": "predicate", "chunkGloss": "살았다" },
+        { "id": "p3", "tokenIndexes": [5, 6, 7, 8], "component": "modifier",  "chunkGloss": "작은 구멍 속에서" },
+        { "id": "p4", "tokenIndexes": [9, 10, 11],  "component": "modifier",  "chunkGloss": "농장 근처의" }
+      ],
+      "translation": "농장 근처의 작은 구멍 속에서 시골 쥐 한 마리가 살았다."
+    },
+    {
+      "id": "q2",
+      "sentence": "One day, his cousin from the town visited him.",
+      "tokens": [
+        { "index": 1, "text": "One",     "pos": "adjective" },
+        { "index": 2, "text": "day,",    "pos": "noun" },
+        { "index": 3, "text": "his",     "pos": "pronoun" },
+        { "index": 4, "text": "cousin",  "pos": "noun" },
+        { "index": 5, "text": "from",    "pos": "preposition" },
+        { "index": 6, "text": "the",     "pos": "adjective" },
+        { "index": 7, "text": "town",    "pos": "noun" },
+        { "index": 8, "text": "visited", "pos": "verb" },
+        { "index": 9, "text": "him.",    "pos": "pronoun" }
+      ],
+      "phrases": [
+        { "id": "p1", "tokenIndexes": [1, 2],    "component": "modifier",  "chunkGloss": "어느 날" },
+        { "id": "p2", "tokenIndexes": [3, 4],    "component": "subject",   "chunkGloss": "그의 사촌이" },
+        { "id": "p3", "tokenIndexes": [5, 6, 7], "component": "modifier",  "chunkGloss": "마을에서 온" },
+        { "id": "p4", "tokenIndexes": [8],       "component": "predicate", "chunkGloss": "방문했다" },
+        { "id": "p5", "tokenIndexes": [9],       "component": "object",    "chunkGloss": "그를" }
+      ],
+      "translation": "어느 날, 마을에서 온 그의 사촌이 그를 방문했다."
+    },
+    {
+      "id": "q3",
+      "sentence": "The country mouse was happy.",
+      "tokens": [
+        { "index": 1, "text": "The",     "pos": "adjective" },
+        { "index": 2, "text": "country", "pos": "adjective" },
+        { "index": 3, "text": "mouse",   "pos": "noun" },
+        { "index": 4, "text": "was",     "pos": "verb" },
+        { "index": 5, "text": "happy.",  "pos": "adjective" }
+      ],
+      "phrases": [
+        { "id": "p1", "tokenIndexes": [1, 2, 3], "component": "subject",    "chunkGloss": "시골 쥐는" },
+        { "id": "p2", "tokenIndexes": [4],       "component": "predicate",  "chunkGloss": "~였다" },
+        { "id": "p3", "tokenIndexes": [5],       "component": "complement", "chunkGloss": "행복한" }
+      ],
+      "translation": "시골 쥐는 행복했다."
+    },
+    {
+      "id": "q4",
+      "sentence": "He gave his cousin simple food, like corn and seeds.",
+      "tokens": [
+        { "index": 1,  "text": "He",     "pos": "pronoun" },
+        { "index": 2,  "text": "gave",   "pos": "verb" },
+        { "index": 3,  "text": "his",    "pos": "pronoun" },
+        { "index": 4,  "text": "cousin", "pos": "noun" },
+        { "index": 5,  "text": "simple", "pos": "adjective" },
+        { "index": 6,  "text": "food,",  "pos": "noun" },
+        { "index": 7,  "text": "like",   "pos": "preposition" },
+        { "index": 8,  "text": "corn",   "pos": "noun" },
+        { "index": 9,  "text": "and",    "pos": "conjunction" },
+        { "index": 10, "text": "seeds.", "pos": "noun" }
+      ],
+      "phrases": [
+        { "id": "p1", "tokenIndexes": [1],          "component": "subject",         "chunkGloss": "그는" },
+        { "id": "p2", "tokenIndexes": [2],          "component": "predicate",       "chunkGloss": "주었다" },
+        { "id": "p3", "tokenIndexes": [3, 4],       "component": "object_indirect", "chunkGloss": "그의 사촌에게" },
+        { "id": "p4", "tokenIndexes": [5, 6],       "component": "object_direct",   "chunkGloss": "간단한 음식을" },
+        { "id": "p5", "tokenIndexes": [7, 8, 9, 10],"component": "modifier",        "chunkGloss": "옥수수와 씨앗 같은" }
+      ],
+      "translation": "그는 그의 사촌에게 옥수수와 씨앗 같은 간단한 음식을 주었다."
+    },
+    {
+      "id": "q5",
+      "sentence": "They sat on the floor.",
+      "tokens": [
+        { "index": 1, "text": "They",   "pos": "pronoun" },
+        { "index": 2, "text": "sat",    "pos": "verb" },
+        { "index": 3, "text": "on",     "pos": "preposition" },
+        { "index": 4, "text": "the",    "pos": "adjective" },
+        { "index": 5, "text": "floor.", "pos": "noun" }
+      ],
+      "phrases": [
+        { "id": "p1", "tokenIndexes": [1],       "component": "subject",   "chunkGloss": "그들은" },
+        { "id": "p2", "tokenIndexes": [2],       "component": "predicate", "chunkGloss": "앉았다" },
+        { "id": "p3", "tokenIndexes": [3, 4, 5], "component": "modifier",  "chunkGloss": "바닥에" }
+      ],
+      "translation": "그들은 바닥에 앉았다."
+    }
+  ]
+}

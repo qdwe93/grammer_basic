@@ -1,0 +1,91 @@
+/**
+ * quiz-board — surface-soft, rounded-md, hairline, padding xl, 최대폭 840px 중앙 (docs/04 §4).
+ */
+.board {
+  max-width: 840px;
+  margin: 0 auto;
+  background: var(--surface-soft);
+  border: 1px solid var(--hairline);
+  border-radius: var(--rounded-md);
+  padding: var(--space-xl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+/* progress-indicator: "문제 N / 전체" + 4px 진행바 (primary 채움) */
+.progress {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+.progressLabel {
+  color: var(--muted);
+}
+.progressTrack {
+  height: 4px;
+  background: var(--surface-strong);
+  border-radius: var(--rounded-full);
+  overflow: hidden;
+}
+.progressFill {
+  height: 100%;
+  background: var(--primary);
+  border-radius: var(--rounded-full);
+}
+
+/* 문장: 단어가 text처럼 inline-wrap. 줄 간격은 단어 아래 인라인 선택기 자리 확보용으로 넉넉히. */
+.sentence {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: var(--space-lg) var(--space-xs); /* row 24 / column 8 (design.md 단어 간 8px) */
+}
+.inlinePos {
+  margin-top: var(--space-xxs);
+}
+
+/* 데스크톱 문장성분 영역 (구별 component-selector) */
+.componentArea {
+  border-top: 1px solid var(--hairline);
+  padding-top: var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+.componentTitle {
+  color: var(--muted);
+}
+.phraseRows {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+.phraseRow {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  min-height: 44px;
+}
+.phraseText {
+  color: var(--ink);
+  flex: 1 1 auto;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* 모바일: 보드 패딩을 약간 좁히고 문장 줄간격도 타이트하게 */
+@media (max-width: 767px) {
+  .board {
+    padding: var(--space-lg);
+  }
+  .sentence {
+    gap: var(--space-sm) var(--space-xs);
+  }
+}

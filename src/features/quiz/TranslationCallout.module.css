@@ -1,0 +1,10 @@
+.callout {
+  background: var(--signature-cream);
+  border-radius: var(--rounded-md);
+  padding: var(--space-lg);
+}
+
+.text {
+  margin: 0;
+  color: var(--ink);
+}

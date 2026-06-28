@@ -1,0 +1,83 @@
+.phrase {
+  display: inline-flex;
+  max-width: 100%;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-xs);
+  break-inside: avoid;
+}
+
+.tokenRow {
+  display: inline-flex;
+  max-width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: var(--space-xs);
+}
+
+.tokenUnit {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: var(--space-xxs);
+}
+
+.bracketSegment {
+  position: relative;
+  display: block;
+  height: 8px;
+  border-bottom: 2px solid var(--component-color);
+  margin-top: calc(var(--space-xxs) * -1);
+}
+
+.bracketStart::before,
+.bracketEnd::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  width: 2px;
+  height: 8px;
+  background: var(--component-color);
+}
+
+.bracketStart::before {
+  left: 0;
+}
+
+.bracketEnd::after {
+  right: 0;
+}
+
+.chipRow {
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.chip {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 22px;
+  padding: var(--space-xxs) var(--space-xs);
+  color: var(--component-color);
+  background: var(--canvas);
+  border: 1px solid var(--component-color);
+  border-radius: var(--rounded-sm);
+}
+
+.wasWrong {
+  position: absolute;
+  top: -6px;
+  right: -8px;
+  color: var(--was-wrong);
+  line-height: 1;
+}
+
+.gloss {
+  color: var(--body);
+  text-align: center;
+  max-width: 100%;
+}

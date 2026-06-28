@@ -1,0 +1,24 @@
+/* 앱 셸 — 헤더 / 본문 / 푸터 세로 스택. 본문이 남는 높이를 채워 푸터를 바닥에 고정. */
+.shell {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: var(--canvas);
+}
+
+/* 본문 — 흰 캔버스, 보드/카드 바깥 여백(보드는 840px, 시작·설정·결과는 1080px 중앙). */
+.main {
+  flex: 1;
+  background: var(--canvas);
+  padding: var(--space-xl) var(--space-lg);
+}
+
+/* LLM 실패 → 시드 폴백 안내 배너 (콘텐츠 위, 1080px 중앙 정렬에 맞춤) */
+.banner {
+  width: min(100%, 1080px);
+  margin: 0 auto var(--space-md);
+  padding: var(--space-sm) var(--space-md);
+  background: var(--error-soft);
+  color: var(--error);
+  border-radius: var(--rounded-sm);
+}

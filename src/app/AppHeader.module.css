@@ -1,0 +1,136 @@
+/* app-header — 64px 흰 바, flat(그림자 없음), hairline 하단선 */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--canvas);
+  border-bottom: 1px solid var(--hairline);
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  height: 64px;
+  width: min(100%, 1080px);
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+}
+
+.wordmark {
+  border: none;
+  background: transparent;
+  color: var(--ink);
+  cursor: pointer;
+  padding: var(--space-xxs) var(--space-xs);
+  margin-left: calc(var(--space-xs) * -1);
+  border-radius: var(--rounded-sm);
+}
+.wordmark:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+/* 데스크톱 인라인 메뉴 (중앙-좌) */
+.nav {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+}
+
+.navItem {
+  border: none;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  min-height: 44px;
+  padding: 0 var(--space-sm);
+  border-radius: var(--rounded-sm);
+}
+.navItem:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+.navActive {
+  color: var(--ink);
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-left: auto;
+}
+
+.deckLabel {
+  color: var(--muted);
+  max-width: 220px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* 햄버거 — 기본 숨김, 모바일에서만 노출 */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  width: 44px;
+  height: 44px;
+  padding: 0 10px;
+  border: 1px solid var(--hairline);
+  border-radius: var(--rounded-sm);
+  background: var(--canvas);
+  cursor: pointer;
+}
+.hamburger:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+.hamburgerBar {
+  display: block;
+  height: 2px;
+  width: 100%;
+  background: var(--ink);
+  border-radius: var(--rounded-full);
+}
+
+/* 풀스크린 시트 — 기본 숨김 */
+.sheet {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .nav {
+    display: none;
+  }
+  .deckLabel {
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+  }
+  .sheet {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+    padding: var(--space-md) var(--space-lg) var(--space-lg);
+    background: var(--canvas);
+    border-bottom: 1px solid var(--hairline);
+  }
+  .sheetItem {
+    border: none;
+    background: transparent;
+    color: var(--ink);
+    text-align: left;
+    cursor: pointer;
+    min-height: 48px;
+    padding: 0 var(--space-xs);
+    border-radius: var(--rounded-sm);
+  }
+  .sheetItem:focus-visible {
+    outline: 2px solid var(--focus);
+    outline-offset: 2px;
+  }
+}

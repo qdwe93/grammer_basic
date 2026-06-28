@@ -1,0 +1,95 @@
+/**
+ * 버튼 — design.md Buttons / docs/04 §4
+ * 규칙: Primary는 #181d26(검정), 링크 파랑 아님. rounded-lg. 그라데이션 금지.
+ */
+
+.base {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-xs);
+  border: none;
+  border-radius: var(--rounded-lg);
+  padding: 16px 24px; /* design.md: 16 × 24 */
+  min-height: 48px; /* 터치 타깃 최소 48 */
+  font: var(--type-button); /* 16/500 */
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 120ms ease, box-shadow 120ms ease;
+}
+
+.base:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+/* button-primary — 검정 CTA, 뷰포트당 1개 */
+.primary {
+  background: var(--primary);
+  color: var(--on-primary);
+  /* rest: subtle blue-tinted glow at low alpha (design.md Elevation) */
+  box-shadow: 0 1px 2px rgba(24, 29, 38, 0.18), 0 0 0 0.5px rgba(69, 143, 255, 0.06);
+}
+.primary:active {
+  background: var(--primary-active);
+}
+.primary:disabled {
+  background: var(--surface-strong);
+  color: var(--muted);
+  box-shadow: none;
+  cursor: not-allowed;
+}
+
+/* button-secondary — 흰 + hairline outline */
+.secondary {
+  background: var(--canvas);
+  color: var(--ink);
+  border: 1px solid var(--hairline);
+}
+.secondary:active {
+  background: var(--surface-soft);
+}
+.secondary:disabled {
+  color: var(--muted);
+  border-color: var(--surface-strong);
+  cursor: not-allowed;
+}
+
+/* button-secondary-on-dark — 다크 결과 카드 위. 흰 배경 유지(반투명 인버트 금지) */
+.secondaryOnDark {
+  background: var(--canvas);
+  color: var(--ink);
+  border: 1px solid var(--canvas);
+}
+.secondaryOnDark:active {
+  background: var(--surface-soft);
+}
+
+/* button-icon-circular — 40×40, canvas bg, hairline, ink 아이콘 */
+.iconCircular {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  min-height: 0;
+  padding: 0;
+  border-radius: var(--rounded-full);
+  border: 1px solid var(--hairline);
+  background: var(--canvas);
+  color: var(--ink);
+  cursor: pointer;
+  transition: background-color 120ms ease;
+}
+.iconCircular:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+.iconCircular:active {
+  background: var(--surface-soft);
+}
+.iconCircular:disabled {
+  color: var(--muted);
+  border-color: var(--surface-strong);
+  cursor: not-allowed;
+}

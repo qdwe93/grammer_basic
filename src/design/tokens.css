@@ -1,0 +1,70 @@
+/**
+ * 디자인 토큰 (CSS 변수)
+ * 출처: docs/04_디자인적용가이드.md §2 — design.md(SSOT)의 값을 그대로 옮김.
+ * 값은 절대 추측 금지. 변경 시 design.md / 04 문서와 함께 갱신.
+ */
+:root {
+  /* Brand / Primary */
+  --primary:        #181d26;
+  --primary-active: #0d1218;
+
+  /* Surface */
+  --canvas:        #ffffff;
+  --surface-soft:  #f8fafc;
+  --surface-strong:#e0e2e6;
+  --surface-dark:  #181d26;
+  --hairline:      #dddddd;
+
+  /* Text */
+  --ink:   #181d26;
+  --body:  #333840;
+  --muted: #41454d;
+  --on-primary: #ffffff;
+
+  /* Feedback (채점 전용) */
+  --error:       #c8362a;
+  --error-soft:  #fbe9e7;
+  --success:     #006400;
+  --success-soft:#e4f3e6;
+  --was-wrong:   #9297a0;
+
+  /* Focus / Link */
+  --focus:       #458fff;
+  --link:        #1b61c9;
+  --link-active: #1a3866;
+
+  /* 품사 (POS) — 배경 틴트 + 잉크(텍스트) 쌍 */
+  --pos-noun-bg:        #e8f0fb;  --pos-noun-ink:        #1f538f;
+  --pos-pronoun-bg:     #e2f1ef;  --pos-pronoun-ink:     #1f6f67;
+  --pos-verb-bg:        #fbe8e2;  --pos-verb-ink:        #a83b1c;
+  --pos-adjective-bg:   #f7eecf;  --pos-adjective-ink:   #8a5a12;
+  --pos-adverb-bg:      #ece6f6;  --pos-adverb-ink:      #5a4391;
+  --pos-preposition-bg: #e4f1ea;  --pos-preposition-ink: #2a6e45;
+  --pos-conjunction-bg: #ecedf0;  --pos-conjunction-ink: #4f5763;
+
+  /* 문장성분 (Component) — 브래킷/칩 색 */
+  --comp-subject:    #3a6ea5;
+  --comp-predicate:  #b4502e;
+  --comp-object:     #3a7d57;
+  --comp-complement: #6a4f9c;
+  --comp-modifier:   #b08416;
+
+  /* Signature surfaces (축하/섹션) */
+  --signature-coral:  #aa2d00;
+  --signature-forest: #0a2e0e;
+  --signature-cream:  #f5e9d4;
+  --signature-peach:  #fcab79;
+  --signature-mint:   #a8d8c4;
+  --signature-yellow: #f4d35e;
+
+  /* Radius */
+  --rounded-sm: 6px;
+  --rounded-md: 10px;
+  --rounded-lg: 12px;
+  --rounded-full: 9999px;
+
+  /* Spacing (4px base) */
+  --space-xxs: 4px;  --space-xs: 8px;  --space-sm: 12px;
+  --space-md: 16px;  --space-lg: 24px; --space-xl: 32px;
+  --space-xxl: 48px; --space-section: 96px;
+}
